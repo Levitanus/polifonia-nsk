@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="polyfonia_app",
+    name="polifonia_app",
     version="0.0.1",
     description="Backend for the polyphony webApp",
     author="Timofey Kazantsev",
