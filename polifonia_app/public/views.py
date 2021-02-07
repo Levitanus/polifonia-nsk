@@ -13,3 +13,8 @@ from .models import products
 @bp.route('/index')
 def index() -> str:
     return render_template('index.html', products=products)
+
+
+@bp.route('/pay_rules')
+def pay_rules() -> str:
+    return render_template('pay_rules.html')

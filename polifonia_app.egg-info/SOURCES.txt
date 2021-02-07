@@ -1,0 +1,9 @@
+README.md
+setup.py
+polifonia_app/__init__.py
+polifonia_app/app.py
+polifonia_app.egg-info/PKG-INFO
+polifonia_app.egg-info/SOURCES.txt
+polifonia_app.egg-info/dependency_links.txt
+polifonia_app.egg-info/requires.txt
+polifonia_app.egg-info/top_level.txt
