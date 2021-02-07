@@ -8,7 +8,7 @@ setup(
     author_email="pianoist@ya.ru",
     license="GNU GPLv3",
     classifiers=["Programming Language :: Python :: 3"],
-    packages=['polyfonia_app'],
+    packages=['polifonia_app'],
     install_requires=[
         'flask',
         'flask-wtf',
