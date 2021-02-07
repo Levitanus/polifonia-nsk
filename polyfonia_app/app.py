@@ -35,5 +35,7 @@ def create_app(test_config: ty.Mapping[str, object] = None) -> Flask:
 
     return app
 
+application = create_app()
+
 if __name__ == "__main__":
-   create_app().run(host='0.0.0.0')
+   application.run(host='0.0.0.0')
