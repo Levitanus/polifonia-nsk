@@ -34,3 +34,6 @@ def create_app(test_config: ty.Mapping[str, object] = None) -> Flask:
     app.jinja_env.filters['zip'] = zip
 
     return app
+
+if __name__ == "__main__":
+   create_app().run(host='0.0.0.0')
