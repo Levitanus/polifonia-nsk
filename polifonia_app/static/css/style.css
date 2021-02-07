@@ -146,6 +146,6 @@ input {
 }
 .main_small {
     /* float: left; */
-    font-family: var(--font_VeryRegular);
-    font-size: 12pt;
+    font-family: sans-serif;
+    font-size: 10pt;
 }

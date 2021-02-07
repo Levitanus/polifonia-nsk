@@ -1,13 +1,30 @@
 {% extends 'base.html' %}
 
 {% block content %}
-	<form method='POST' action='https://demo.paykeeper.ru/create/' >
-	  	Введите сумму оплаты: 
-	    <input type='text' name='sum' value='100'/> <br />
-	  	Введите номер заказа: 
-	    <input type='text' name='orderid' value='123456'/> <br />
-	  	Введите название услуги: 
-	    <input type='text' name='service_name' value='Тестовая оплата'/> <br />
-	  	<input type='submit' value='Перейти к оплате' />
+	<form method='POST' action='https://polifonia-nsk.server.paykeeper.ru/create/' >
+	<!-- <form method='POST' action='' > -->
+		  		<div class="w3-container w3-mobile">
+			  		{{form.sum.label}}
+			    	<div class="main_small">в том числе {{comission}} ₽ комиссии за безналичный рачёт.</div>
+			    </div>
+			    <div class="w3-container w3-mobile">
+			    	{{form.sum(readonly=True)}}
+			    </div>
+			    <hr>
+				<div class="w3-container w3-mobile">
+		    		<p>{{form.service_name.label}}</p>
+		    	</div>
+		    	<div class="w3-container w3-mobile">
+			  		<p>{{form.service_name(readonly=True)}}</p>
+		    	</div>
+		    	<hr>
+		    	<div class="w3-container w3-mobile">
+		  			<p>{{form.client_id.label}}</p>
+		  		</div>
+		  		<div class="w3-container w3-mobile">
+			  		<p>{{form.client_id}}</p>
+		  		</div>
+		  		<hr>
+		  	<p>{{form.submit}}</p>
 	</form>
 {% endblock %}

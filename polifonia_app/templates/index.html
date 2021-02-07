@@ -2,18 +2,21 @@
 
 {% block content %}
     <div>
-        <h1>Абонементы на занятия</h1>
+        <h1>Оплатить услуги:</h1>
         {% for product in products.values() %}
             <hr>
             <p>
-                <h3>{{product.name}}</h3>
+                <h3>{{product.type_}} {{product.name}}</h3>
                 <div class="w3-cell-row">
-                    <p class="w3-cell">{{product.price}} ₽</p>
+                    <p class="w3-cell">{{product.price}} ₽ {% if product.quantaty %} <div class="main_small">({{product.price.value//product.quantaty}} ₽ за 1)</div>{% endif %}</p>
                     <a href="/pay/{{product.id_}}" class="w3-button w3-cell w3-theme-d1">оплатить</a>
+                    {% if product.can_be_halfed %}
+                    <a href="/payhalf/{{product.id_}}" class="w3-button w3-cell w3-theme-d2" style="font-size: 8pt">оплатить половину</a>
+                    {% endif %}
                 </div>
                 <p><img src={{product.pic}} alt="изображение" width=100%></p>
                 {% if product.lifetime %}
-                    <p class="main_small">{{product.type_}} действителен {{product.lifetime[0]}}, ещё {{product.lifetime[1]}} вы можете прогулять по уважительным причинам</p>
+                    <p class="main_small">{{product.lifetime}}</p>
                 {% endif %}
                 {% if product.comment %}
                     <p class="main_small w3-theme-d4">* {{product.comment}}</p>

@@ -6,7 +6,7 @@ from flask import flash, redirect, current_app, abort
 from werkzeug import Response
 from werkzeug.urls import url_parse
 
-from .models import products
+from .models import products, PaymentForm
 
 
 @bp.route('/')
@@ -24,6 +24,21 @@ def pay_rules() -> str:
     '/pay/<product_id>',
     # methods=['GET', 'POST'],
 )
+@bp.route('/payhalf/<product_id>')
 def pay(product_id: str) -> str:
     product = products[product_id]
-    return render_template('test_pay_widget.html', product=product)
+    form = PaymentForm(request.form)
+    if "/payhalf/" in str(request):
+        if not product.can_be_halfed:
+            abort(403)
+        value = product.price.value // 2
+        comission = product.price.comission // 2
+    else:
+        value = product.price.value
+        comission = product.price.comission
+    form.sum.data = value
+    form.service_name.data = f'{product.type_} {product.name}'
+    return render_template('test_pay_widget.html',
+                           product=product,
+                           form=form,
+                           comission=comission)
