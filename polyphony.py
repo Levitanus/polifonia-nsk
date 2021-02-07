@@ -1,5 +1,4 @@
-from polyphony_app.app import create_app, db
-from polyphony_app import users
+from polyphony_app.app import create_app
 
 app = application = create_app()
 

@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name="polyphony_app",
+    name="polyfonia_app",
     version="0.0.1",
     description="Backend for the polyphony webApp",
     author="Timofey Kazantsev",
     author_email="pianoist@ya.ru",
     license="GNU GPLv3",
     classifiers=["Programming Language :: Python :: 3"],
-    packages=['polyphony_app'],
+    packages=['polyfonia_app'],
     install_requires=[
         'flask',
         'flask-wtf',
