@@ -12,9 +12,7 @@ def create_app(test_config: ty.Mapping[str, object] = None) -> Flask:
     app = Flask(__name__, instance_relative_config=True)
     adm_t, adm_p = randint(10000, 99999), randint(10000, 99999)
     print('ADMIN SETTINGS:', adm_t, adm_p)
-    app.config.from_mapping(
-        SECRET_KEY='dev',
-    )
+    app.config.from_mapping(SECRET_KEY='dev', )
 
     if test_config is None:
         # load the instance config, if it exists, when not testing
@@ -35,11 +33,13 @@ def create_app(test_config: ty.Mapping[str, object] = None) -> Flask:
 
     return app
 
-application = create_app()
-
-@application.route("/")
-def hello():
-   return "<h1 style='color:blue'>Hello There!</h1>"
 
 if __name__ == "__main__":
-   application.run(host='0.0.0.0')
+
+    application = create_app()
+
+    @application.route("/")
+    def hello():
+        return "<h1 style='color:blue'>Hello There!</h1>"
+
+    application.run(host='0.0.0.0')

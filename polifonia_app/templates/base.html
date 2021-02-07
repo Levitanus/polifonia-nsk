@@ -25,23 +25,6 @@
                     вокал • фортепиано
                 </div></a>
             </div>
-            {% if not current_user.is_anonymous %}
-                <div class="w3-col w3-hide-small w3-hide-middle" style="width: auto;">
-                    {{current_user.username}}
-                </div>
-            {% endif %}
-
-            <div class="w3-col w3-right w3-panel" style="width: 80px; max-width: 40%; position: relative; top: 8px;">
-                {% if current_user.is_anonymous %}
-                    <a href='/users/auth' class="w3-button w3-round-xxlarge">
-                        <img src="/static/icons/communication/ic_vpn_key_24px.svg" alt="войти или зарегистрироваться" style="width: 40px; -webkit-filter: invert(100%); filter: invert(100%);">
-                    </a>
-                {% else %}
-                    <a href='/users/logout' class="w3-button w3-round-xxlarge">
-                        <img src="/static/icons/action/ic_exit_to_app_24px.svg" alt="выйти" style="width: 40px; -webkit-filter: invert(100%); filter: invert(100%);">
-                    </a>
-                {% endif %}
-            </div>
         </header><!-- /header -->
         <nav class="w3-theme-d4 w3-bar">
             {% for item in menu_items %}

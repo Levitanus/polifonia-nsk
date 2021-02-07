@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div>
+        <h1>Абонементы на занятия</h1>
+        {% for product in products %}
+            <hr>
+            <p>
+                <h3>{{product.name}}</h3>
+                <div class="w3-cell-row"><p class="w3-cell">{{product.price}}₽</p><button type="button" class="w3-button w3-cell">оплатить</button></div>
+                <p><img src={{product.pic}} alt="изображение" width=100%></p>
+                {% if product.lifetime %}
+                    <p class="main_small">{{product.type_}} действителен {{product.lifetime[0]}}, ещё {{product.lifetime[1]}} вы можете прогулять по уважительным причинам</p>
+                {% endif %}
+            </p>
+        {% endfor %}    
+    </div>
+{% endblock %}

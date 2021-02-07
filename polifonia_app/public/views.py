@@ -6,9 +6,10 @@ from flask import flash, redirect, current_app, abort
 from werkzeug import Response
 from werkzeug.urls import url_parse
 
+from .models import products
+
 
 @bp.route('/')
 @bp.route('/index')
 def index() -> str:
-    return render_template('index.html')
-
+    return render_template('index.html', products=products)

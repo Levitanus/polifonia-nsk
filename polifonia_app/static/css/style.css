@@ -144,3 +144,8 @@ input {
     background-color: rgba(200, 200, 200,0.1);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
 }
+.main_small {
+    /* float: left; */
+    font-family: var(--font_VeryRegular);
+    font-size: 12pt;
+}
