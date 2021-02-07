@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    {# <meta http-equiv="X-UA-Compatible" content="IE=edge"> #}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% if title %}
+    <title>{{title}} - „Полифония“, Новосибирск</title>
+    {% else %}
+    <title>„Полифония“, Новосибирск</title>
+    {% endif %}
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-grey.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+    <div class="w3-card-2" style="z-index: 2;">
+        <header id="main_header" class="w3-theme-d5 w3-row-padding">
+
+            <div class="logo w3-col w3-mobile" style="width:50%; max-width: 250px;">
+                <a href="/" class='logo'>
+                <div class="logo_header">ПОЛИ<span class="spetial_font">f</span>ОНИЯ</div>
+                <div class="logo_sub">
+                    вокал • фортепиано
+                </div></a>
+            </div>
+            {% if not current_user.is_anonymous %}
+                <div class="w3-col w3-hide-small w3-hide-middle" style="width: auto;">
+                    {{current_user.username}}
+                </div>
+            {% endif %}
+
+            <div class="w3-col w3-right w3-panel" style="width: 80px; max-width: 40%; position: relative; top: 8px;">
+                {% if current_user.is_anonymous %}
+                    <a href='/users/auth' class="w3-button w3-round-xxlarge">
+                        <img src="/static/icons/communication/ic_vpn_key_24px.svg" alt="войти или зарегистрироваться" style="width: 40px; -webkit-filter: invert(100%); filter: invert(100%);">
+                    </a>
+                {% else %}
+                    <a href='/users/logout' class="w3-button w3-round-xxlarge">
+                        <img src="/static/icons/action/ic_exit_to_app_24px.svg" alt="выйти" style="width: 40px; -webkit-filter: invert(100%); filter: invert(100%);">
+                    </a>
+                {% endif %}
+            </div>
+        </header><!-- /header -->
+        <nav class="w3-theme-d4 w3-bar">
+            {% for item in menu_items %}
+                <a class="w3-bar-item w3-button {% if item.active==True %}w3-theme-d3{% endif %} w3-mobile menu_item" href={{item.route}}>{{item.text}}</a>
+            {% endfor %}
+        </nav>
+    </div>
+    
+    {# <main class="main_content"> #}
+    <main class="w3-container w3-padding w3-theme-d5 w3-card-2" style="max-width: 800px; margin: auto;">
+        {# <div class="" style="max-width: 800px;"> #}
+            {% block content %}{% endblock %}
+        {# </div> #}
+    </main lang="ru">
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <div id="flashbar" class="w3-bar w3-bottom w3-animate-opacity w3-theme-d4 w3-padding">
+            <ul class="w3-bar-item" style="width: 89%;">
+                {% for message in messages %}
+                <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+            <button id="flashCloseButton" class="w3-bar-item w3-button" style="width: 10%;" onclick="document.getElementById('flashbar').style.display='none'">X</button>
+        </div>
+        {% endif %}
+    {% endwith %}
+    <footer>
+    </footer>
+</body>
+</html>

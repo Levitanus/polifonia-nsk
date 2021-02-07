@@ -1,0 +1,206 @@
+<!doctype HTML>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="yandex-verification" content="ce9bcefde4e455e2" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-grey.css">
+    <title>Полифония — главная</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900|IBM+Plex+Serif:500i|Ledger|Montserrat:600&display=swap&subset=cyrillic');
+        :root {
+  --font_VeryRegular: 'Ledger', serif;
+  --font_RegularItalic: 'Cormorant Infant', serif;
+  --font_HeaderRegular: 'Montserrat', sans-serif;
+  --font_MainLogo: 'Alegreya Sans SC', sans-serif;
+  --font_SpetialLogo: 'IBM Plex Serif', serif;
+}
+body {
+    margin: auto;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    color: rgb(155, 155, 155);
+}
+p, ul {
+    font-size: 18px;
+    font-family: var(--font_VeryRegular);
+    text-align: justify;
+    word-break: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    line-height: 1.3em;
+}
+i, i.b{
+    font-family: var(--font_RegularItalic);
+    font-size: 24px;
+    line-height: 1.1em;
+}
+
+iframe {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    max-height: 100vh;
+}
+a {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 10px #00000070;
+}
+a:hover{
+    /* color: rgb(200, 200, 180); */
+    text-shadow: 2px 2px 5px #ffffff50;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font_HeaderRegular);
+    font-weight: normal;
+}
+input {
+    max-width: 100%;
+}
+.logo{
+    margin: 0;
+    padding-top: 0;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: none;
+    /* grid-column: 1, */
+}
+.logo_header{
+    font-family: var(--font_MainLogo);
+    font-weight: normal;
+    font-size: 36px;
+    letter-spacing: -2px;
+    /* height: 10%; */
+}
+.logo_sub{
+    position: relative;
+    top: -10px;
+    left: 4px;
+    font-family: var(--font_HeaderRegular);
+    font-size: 13px;
+    padding-top: 0;
+    letter-spacing: 3px;
+}
+.spetial_font{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font_SpetialLogo);
+    font-weight: normal;
+    font-kerning: auto;
+    font-size: 45px;
+}
+
+.login{
+    /* float: right; */
+    /* grid-column: 2; */
+}
+.header_username{
+    margin: auto;
+    padding: 0;
+    width: 40px;
+    font-size: 11pt;
+    position: relative;
+    top: -15px;
+    /* left: 20px; */
+}
+
+.main_menu {
+    /* overflow: hidden; */
+    /* z-index: 2; */
+    /* background-color: rgba(50, 50, 50, .9); */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    /* padding: 5px;
+    border-top-style: solid;
+    border-color: rgba(200, 200, 150, .8);
+    border-bottom-style: solid;
+    color: rgb(190, 190, 190);
+    padding-bottom: 5px;
+    box-shadow: 0 15px 10px 5px rgba(0, 0, 0, 0.2); */
+}
+.menu_item {
+/*     color: rgb(200, 200, 150);
+    text-align: center;
+    padding: 5px 5px; */
+    text-decoration: none;
+    font-style: normal;
+    font-family: var(--font_HeaderRegular);
+    font-weight: normal;
+}
+/* .menu_item:hover {
+  background-color: rgba(200, 200, 150, .8);
+  color: black;
+}
+ */
+.main_content {
+    /* float: left; */
+    font-family: var(--font_VeryRegular);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    max-width: 1100px;
+    margin: auto;
+    background-color: rgba(200, 200, 200,0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+.white_svg {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+    </style>
+</head>
+<body>
+    <header id="main_header" class="w3-theme-d5 w3-center">
+       <div class="logo" style="width:50%; max-width: 250px;">
+            <a href="/" class='logo'>
+            <div class="logo_header">ПОЛИ<span class="spetial_font">f</span>ОНИЯ</div>
+            <div class="logo_sub">
+                вокал • фортепиано
+            </div></a>
+        </div>
+    </header><!-- /header -->
+    <main class="main_content">
+        <div class="w3-row">
+            <h2>Контактная информация</h2>
+            <div class="w3-col  w3-container w3-card" style="width:600px; max-width: 100%;">
+                <h3>Мы занимаемся здесь:</h3>
+                <div style="padding-bottom: 15px">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afca09db9d967454f24e66001f99acd72836493452f6c978769086695651dce3d&amp;width=100%25&amp;height=489&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+            <div class="w3-rest w3-container" style="min-width: 250px;">
+                <h3>С нами можно связаться:</h3>
+                <p><img class="white_svg" src="ic_call_24px.svg" alt="телефон"> +7 923 235 80 40</p>
+                <p><img class="white_svg" src="ic_call_24px.svg" alt="телефон"> +7 952 917 74 72</p>
+                <p><img class="white_svg" src="instagram.png" alt="телефон" style="height: 1.5em; width: auto;"> <a href="https://www.instagram.com/polifonia.nsk/">instagram</a></p>
+                <p><img class="white_svg" src="vk.svg" alt="телефон" style="height: 1.5em; width: auto;"> <a href="https://vk.com/pianoist">Тимофей Казанцев</a></p>
+                <p><img class="white_svg" src="vk.svg" alt="телефон" style="height: 1.5em; width: auto;"> <a href="https://vk.com/madam.kaza">Алена Казанцева</a></p>
+            </div>
+        </div>
+        <hr>
+        <div class="w3-row">
+            <div class="w3-col w3-mobile w3-card w3-container w3-left" style="width: auto;">
+                <h3>Алена Казанцева</h3>
+                <img src="alena.jpg" alt="Алена Казанцева" style="max-height: 80vh; width: auto; max-width: 450px; height: 100%; margin: auto;">
+                <p>Развитие голоса, академический вокал.</p>
+            </div>
+            <div class="w3-col w3-mobile w3-card w3-container w3-right" style="width: auto;">
+                <h3>Тимофей Казанцев</h3>
+                <img src="timofey.jpg" alt="Алена Казанцева" style="max-height: 80vh; width: auto; max-width: 450px; height: 100%; margin: auto;">
+                <p>Фортепиано</p>
+            </div>
+        </div>
+    </main>
+    <footer class="w3-row-padding">
+        <p style="width: auto; max-width: 400px; margin-left: auto; margin-right: auto;">Сайт находится в разработке</p>
+    </footer>
+</body>

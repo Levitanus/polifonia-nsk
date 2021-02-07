@@ -1,0 +1,1409 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-bottom\tproperty"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"st",
+				"style\t<style>"
+			],
+			[
+				"ma",
+				"main\t<main>"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"Disc",
+				"DiscountRule\tclass"
+			],
+			[
+				"Dis",
+				"DiscountRule\tclass"
+			],
+			[
+				"add_",
+				"add_view\tfunction"
+			],
+			[
+				"Ty",
+				"TypeVar\tclass"
+			],
+			[
+				"vali",
+				"validate_peice\tfunction"
+			],
+			[
+				"Us",
+				"UserGroup\tclass"
+			],
+			[
+				"subj",
+				"subject_id\tparam"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"sub",
+				"subjects\tstatement"
+			],
+			[
+				"ch",
+				"choices\tstatement"
+			],
+			[
+				"less_t",
+				"less_t_form\tstatement"
+			],
+			[
+				"subj_",
+				"subject_names"
+			],
+			[
+				"less",
+				"lesson_types"
+			],
+			[
+				"i",
+				"i\t<i>"
+			],
+			[
+				"Inte",
+				"IntegerField\tclass"
+			],
+			[
+				"add",
+				"add_subject_cb\tfunction"
+			],
+			[
+				"ADd",
+				"AddSubjectForm\tclass"
+			],
+			[
+				"inp",
+				"inputs\tinput - submit"
+			],
+			[
+				"group",
+				"groups\tparam"
+			],
+			[
+				"Use",
+				"UserGroup\tclass"
+			],
+			[
+				"price",
+				"price_per_hour\tfunction"
+			],
+			[
+				"solo",
+				"solo_vocal\tstatement"
+			],
+			[
+				"is",
+				"is_group\tparam"
+			],
+			[
+				"polyp",
+				"polyphony_app\tmodule"
+			],
+			[
+				"get",
+				"getattr\tfunction"
+			],
+			[
+				"UserGro",
+				"UserGroupForm\tclass"
+			],
+			[
+				"met",
+				"method\tAttr"
+			],
+			[
+				"label",
+				"label\t<label>"
+			],
+			[
+				"h",
+				"hr\t<hr>"
+			],
+			[
+				"filter",
+				"filter"
+			],
+			[
+				"User",
+				"UserCard\tclass"
+			],
+			[
+				"Car",
+				"UserCard\tclass"
+			],
+			[
+				"in",
+				"in_group"
+			],
+			[
+				"user",
+				"username\tparam"
+			],
+			[
+				"da",
+				"data_required_msg\tstatement"
+			],
+			[
+				"ur",
+				"url_prfx\tstatement"
+			],
+			[
+				"pass",
+				"password_repeat\tparam"
+			],
+			[
+				"password",
+				"password_repeat"
+			],
+			[
+				"pas",
+				"password_new\tstatement"
+			],
+			[
+				"n",
+				"npswd\tstatement"
+			],
+			[
+				"pa",
+				"password_new"
+			],
+			[
+				"sta",
+				"status_code"
+			],
+			[
+				"logi",
+				"login_required\tfunction"
+			],
+			[
+				"data",
+				"data_required_msg"
+			],
+			[
+				"poy",
+				"polyphony_app\tmodule"
+			],
+			[
+				"lo",
+				"LoginForm\tclass"
+			],
+			[
+				"re",
+				"response\tstatement"
+			],
+			[
+				"poly",
+				"polyphony_app\tmodule"
+			],
+			[
+				"url",
+				"url_for\tfunction"
+			],
+			[
+				"nex",
+				"next_page\tstatement"
+			],
+			[
+				"Int",
+				"IntFlag\tclass"
+			],
+			[
+				"hea",
+				"head\t<head>"
+			],
+			[
+				"flask_",
+				"flask_sqlalchemy\tmodule"
+			],
+			[
+				"ap",
+				"init_app\tfunction"
+			],
+			[
+				"login",
+				"login_view\tstatement"
+			],
+			[
+				"flask",
+				"flask_wtf\tmodule"
+			],
+			[
+				"ins",
+				"instance_path\tstatement"
+			],
+			[
+				"app",
+				"app_context\tfunction"
+			],
+			[
+				"logo",
+				"logout_user\tfunction"
+			],
+			[
+				"reme",
+				"remember_me\tstatement"
+			],
+			[
+				"loginu",
+				"login_user\tfunction"
+			],
+			[
+				"use",
+				"user_loader\tfunction"
+			],
+			[
+				"date",
+				"datetime\tclass"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"ema",
+				"email_check"
+			],
+			[
+				"Valia",
+				"ValidationError\tclass"
+			],
+			[
+				"register",
+				"register_password"
+			],
+			[
+				"if",
+				"if\tIf"
+			],
+			[
+				"reg",
+				"register_form\tstatement"
+			],
+			[
+				"valia",
+				"validate_on_submit\tfunction"
+			],
+			[
+				"inde",
+				"index_page\tinstance"
+			],
+			[
+				"Log",
+				"LoginForm\tclass"
+			],
+			[
+				"context",
+				"app_context\tfunction"
+			],
+			[
+				"log",
+				"login_form\tstatement"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"grid-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"paddi",
+				"padding-left\tproperty"
+			],
+			[
+				"font-si",
+				"font-size-adjust\tproperty"
+			],
+			[
+				"font",
+				"font-kerning"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"borde",
+				"border-radius\tproperty"
+			],
+			[
+				"bord",
+				"border-style\tproperty"
+			],
+			[
+				"ove",
+				"overflow\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"color",
+				"color\tproperty"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"rgb",
+				"rgb()"
+			],
+			[
+				"ren",
+				"render_template_string\tfunction"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"border-s",
+				"border-style\tproperty"
+			],
+			[
+				"bor",
+				"border-left\tproperty"
+			],
+			[
+				"va",
+				"_variables\tstatement"
+			],
+			[
+				"var",
+				"_variables"
+			],
+			[
+				"rou",
+				"route\tparam"
+			],
+			[
+				"Base",
+				"BasePage\tclass"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"static_",
+				"static_host\tparam"
+			],
+			[
+				"lesso",
+				"lessons\tstatement"
+			],
+			[
+				"teach",
+				"teachers_availble\tstatement"
+			],
+			[
+				"Les",
+				"LessonType\tclass"
+			],
+			[
+				"week",
+				"weeks\tstatement"
+			],
+			[
+				"les",
+				"lessons\tstatement"
+			],
+			[
+				"tea",
+				"teachers_availble\tstatement"
+			],
+			[
+				"Tea",
+				"Teacher\tclass"
+			],
+			[
+				"Stu",
+				"StudentPersTime\tclass"
+			],
+			[
+				"tim",
+				"timedelta\tclass"
+			],
+			[
+				"S",
+				"Subject\tclass"
+			],
+			[
+				"Less",
+				"LessonType\tclass"
+			],
+			[
+				"_re",
+				"_related_files\tstatement"
+			],
+			[
+				"load",
+				"loads\tfunction"
+			],
+			[
+				"teac",
+				"teacher_id\tstatement"
+			],
+			[
+				"Lesso",
+				"LessonStatus\tclass"
+			],
+			[
+				"stu",
+				"students_access"
+			],
+			[
+				"time",
+				"time_start\tparam"
+			],
+			[
+				"_da",
+				"_date_start\tstatement"
+			],
+			[
+				"del",
+				"delta\tstatement"
+			],
+			[
+				"pri",
+				"price_per_hour\tparam"
+			],
+			[
+				"ver",
+				"verify_and_update\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "placeholder/index.html",
+			"settings":
+			{
+				"buffer_size": 6716,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polyphony_site.sublime-project",
+			"settings":
+			{
+				"buffer_size": 924,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polyphony_app/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 3344,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polyphony_app/users/models.py",
+			"settings":
+			{
+				"buffer_size": 4415,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polyphony_app/static/css/style.css",
+			"settings":
+			{
+				"buffer_size": 3412,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Anaconda Python Builder",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/python3_my.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Lua/Lua.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python3_my.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Lua/Lua.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pyap",
+				"PyYapf: Format Document"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"toggl",
+				"Toggle Uncovered Lines"
+			],
+			[
+				"pytes",
+				"PyTest: Run: All"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"jed",
+				"SublimeJedi: Show Signature"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"asd",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/levitanus/gits/polyphony_site",
+		"/home/levitanus/gits/polyphony_site/placeholder",
+		"/home/levitanus/gits/polyphony_site/polyphony_app",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/static",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/static/css",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/templates",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates",
+		"/home/levitanus/gits/polyphony_site/tests",
+		"/home/levitanus/gits/polyphony_site/tests/lessons",
+		"/home/levitanus/gits/polyphony_site/tests/users"
+	],
+	"file_history":
+	[
+		"/home/levitanus/gits/polyphony_site/temp_index.html",
+		"/home/levitanus/gits/polyphony_site/tests/lessons/test_models.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/forms.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/static/css/style.css",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/lessons/templates/dashboard.html",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/lessons/models.py",
+		"/home/levitanus/gits/polyphony_site/tests/conftest.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/app.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/lessons/views.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/lessons/forms.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/templates/base.html",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/templates/index.html",
+		"/home/levitanus/gits/polyphony_site/setup.py",
+		"/home/levitanus/gits/polyphony_site/tests/users/simple_test.py",
+		"/home/levitanus/gits/polyphony_site/tests/simple_test.py",
+		"/home/levitanus/gits/polyphony_site/config.py",
+		"/home/levitanus/Загрузки/думка/думка исполнения.rst",
+		"/home/levitanus/Загрузки/думка/казацкая на русском",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/public/views.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/lessons/__init__.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/models.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/__init__.py",
+		"/home/levitanus/gits/polyphony_site/polyphony.py",
+		"/home/levitanus/gits/polyphony_site/tests/users/test_models.py",
+		"/home/levitanus/gits/polyphony_site/tests/users/__init__.py",
+		"/home/levitanus/gits/polyphony_site/tests/lessons/__init__.py",
+		"/home/levitanus/gits/polyphony_site/tests/users/test_views.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/views.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/profile.html",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/user.html",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/_user_admin_view.html",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/_user_student_view.html",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/auth.html",
+		"/home/levitanus/gits/site/kontrapunkt_app/routes.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/register.html",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/login.html",
+		"/home/levitanus/gits/site/kontrapunkt_app/login.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/templates/login.html",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/users/views_back.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/public/__init__.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/public/templates/index.html",
+		"/home/levitanus/gits/polyphony_site/polyphony_app/views.py",
+		"/home/levitanus/gits/polyphony_site/tests/users/test_forms.py",
+		"/home/levitanus/gits/polyphony_site/tests/users/conftest.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_site.sublime-project",
+		"/home/levitanus/gits/polyphony_site/app/users/views.py",
+		"/home/levitanus/gits/polyphony_site/app/users/templates/auth.html",
+		"/home/levitanus/gits/polyphony_site/app/users/__init__.py",
+		"/home/levitanus/gits/polyphony_site/app/users/models.py",
+		"/home/levitanus/gits/polyphony_site/app/app.py",
+		"/home/levitanus/gits/polyphony_site/app/templates/base.html",
+		"/home/levitanus/gits/polyphony_site/app/users/templates/login.html",
+		"/home/levitanus/gits/site/kontrapunkt_app/templates/base.html",
+		"/home/levitanus/gits/polyphony_site/app/templates/users/login.html",
+		"/home/levitanus/gits/site/kontrapunkt_app/user.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/models.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/templates/login_form.html",
+		"/home/levitanus/gits/polyphony_site/app/users/forms.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/forms.py",
+		"/home/levitanus/gits/polyphony_site/instance/app.db",
+		"/home/levitanus/gits/polyphony_site/app/db.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/flask_migrate/__init__.py",
+		"/home/levitanus/gits/polyphony_site/polyphony_app.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/app.py",
+		"/home/levitanus/gits/polyphony_site/app/__init__.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/config.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/base.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/static/css/style.css",
+		"/home/levitanus/gits/site/kontrapunkt_app/templates/user.html",
+		"/home/levitanus/gits/site/kontrapunkt_app/__init__.py",
+		"/home/levitanus/gits/site/kontrapunkt.py",
+		"/home/levitanus/gits/site/site.sublime-project",
+		"/home/levitanus/gits/site/kontrapunkt_app/index.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/templates/test.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/templates/index.html",
+		"/home/levitanus/gits/site/polyphony_config.py",
+		"/home/levitanus/gits/site/kontrapunkt_app/static/native.css",
+		"/home/levitanus/gits/site/kontrapunkt_app/static/style_backup.css",
+		"/home/levitanus/gits/site/kontrapunkt_app/static/style.css",
+		"/home/levitanus/gits/site/kontrapunkt_app/static/monokai.css",
+		"/home/levitanus/gits/site/kontrapunkt_app/templates/style.css",
+		"/home/levitanus/gits/site/guniconr.conf.py",
+		"/home/levitanus/gits/site/setup.py",
+		"/home/levitanus/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/levitanus/.config/sublime-text-3/Packages/User/JSON (Sublime).sublime-settings",
+		"/home/levitanus/gits/python_flask_webpush_notification/main.py",
+		"/home/levitanus/gits/site/tests/backend/test_models.py",
+		"/home/levitanus/gits/site/app_backend/test.py",
+		"/home/levitanus/gits/python_flask_webpush_notification/templates/index.html",
+		"/home/levitanus/gits/site/app_backend/models.py",
+		"/home/levitanus/gits/site/app_backend/site_config.py",
+		"/home/levitanus/gits/site/tests/backend/create_database.py",
+		"/home/levitanus/gits/python_flask_webpush_notification/static/main.js",
+		"/home/levitanus/gits/site/tests/backend/test_config.py",
+		"/home/levitanus/.config/sublime-text-3/Packages/PyCover/PyCover.sublime-settings",
+		"/home/levitanus/.config/sublime-text-3/Packages/User/PyCover.sublime-settings",
+		"/home/levitanus/gits/site/app_backend/__init__.py",
+		"/home/levitanus/gits/reapy/setup.py",
+		"/home/levitanus/gits/site/backend/security.py",
+		"/home/levitanus/gits/site/backend/site_config.py",
+		"/home/levitanus/gits/site/backend/test.py",
+		"/home/levitanus/gits/site/backend/test2.py",
+		"/home/levitanus/gits/site/backend/create_test_data.py",
+		"/home/levitanus/gits/site/app_backend/test2.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/passlib/__init__.py",
+		"/home/levitanus/gits/site/backend/.ropeproject/config.py",
+		"/home/levitanus/gits/site/.ropeproject/config.py",
+		"/home/levitanus/gits/site/setup.cfg",
+		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/__init__.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/schema.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/sql/schema.py",
+		"/home/levitanus/gits/site/backend/models.pyi",
+		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/orm/__init__.py",
+		"/home/levitanus/gits/site/backend/__init__.py",
+		"/home/levitanus/gits/site/backend/app/__init__.py",
+		"/home/levitanus/gits/site/mypy.ini",
+		"/home/levitanus/gits/site/backend/app/models.py",
+		"/home/levitanus/gits/site/backend/app/routes.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/ext/declarative/api.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/ext/declarative/__init__.py",
+		"/usr/lib/python3.7/weakref.py",
+		"/home/levitanus/gits/site/backend/def __init__.py",
+		"/home/levitanus/gits/site/backend/app/templates/base.html",
+		"/home/levitanus/gits/site/backend/app/templates/login.html",
+		"/home/levitanus/gits/site/backend/app/forms.py",
+		"/home/levitanus/gits/site/backend/app/templates/index.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 136.0,
+		"where_history":
+		[
+			"D:\\gits\\reapy\\reapy"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"500",
+			"80%",
+			"100vh",
+			"100",
+			"width: 100%;height: auto;",
+			"vk.png",
+			" s6 w3-mobile",
+			"курсивом",
+			"жирный",
+			"текст",
+			"address",
+			"T",
+			"result",
+			"price",
+			"validate_peice",
+			"randint",
+			"models",
+			"subj",
+			"subject",
+			"Subject",
+			"subject",
+			"Subject",
+			"subject",
+			"request.url_rule",
+			"url",
+			"endpoint",
+			"access_route",
+			"cb_res",
+			"p",
+			"price",
+			"subject",
+			"name",
+			"subject",
+			"subj_form",
+			"subj_frm",
+			"subject",
+			"h3",
+			"piano",
+			"h4",
+			"cls",
+			"dict",
+			"3",
+			"include",
+			"teacher",
+			"student",
+			"user",
+			"li",
+			"follower",
+			"followers",
+			"session",
+			"student",
+			"teachers",
+			"teacher",
+			"teachers",
+			"ch_pswd",
+			"change_password",
+			"password_new",
+			"password",
+			"pswd_chg",
+			"username",
+			"unique=True,",
+			"username",
+			"password_new",
+			"password",
+			"username",
+			"login",
+			"password_new",
+			"encode",
+			"login",
+			"loginpage.",
+			"password_repeat",
+			"log_resp",
+			"log",
+			"repeate",
+			"username",
+			"email",
+			"username",
+			"password",
+			"password_repeat",
+			"username",
+			"login",
+			"form",
+			"flaskr",
+			"test_user_gtoups",
+			"loginpage.login_form",
+			"basedir",
+			"app",
+			"loginpage.login_form",
+			"h1",
+			"form",
+			"p",
+			"email",
+			"intro",
+			"body",
+			"username",
+			"email",
+			"loginpage",
+			"login_form",
+			"novalidate",
+			"style=\"color: red;\">",
+			"html",
+			"divCheckPasswordMatch",
+			"id=",
+			"id",
+			"self",
+			"login_form",
+			" w3-padding",
+			"username",
+			"index",
+			"login",
+			"form",
+			"openCity",
+			"cityName",
+			"/",
+			"item",
+			"grayscale(100%)",
+			"login_header_small",
+			"div",
+			"content",
+			"ffffff",
+			"10",
+			"2",
+			"li",
+			"div",
+			"span",
+			"h1",
+			"span",
+			"header_regular"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"codehilite",
+			"codehilight",
+			"StudentPersTime",
+			"te.Literal['$1']",
+			"te.Literal['(0)']",
+			"hsl(41, 40%, 55%)",
+			"1a2831",
+			"count_gets"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "placeholder/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"SL.36.region_keys":
+							[
+							],
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "polyphony_site.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "polyphony_app/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1270,
+								1270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 136.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "polyphony_app/users/models.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"SL.48.region_keys":
+							[
+								"SL.pylint.Highlights.|3bb274e00e8edd7cf60b4b378ee8af68aba6e4faff9853909ce219cc0e489943|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Gutter.|region.purplish markup.warning.sublime_linter|circle",
+								"SL.mypy.Highlights.|c6fa1faa078ae76ffb563007eb4f54389bb4bfbf853c76ad5f23d716c039315a|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|e6cb0ff0eb186d81de96ab048621b41ca112cc17d715597d0b0cb98f95ad4a90|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|5a81dfcc0a15377a2e0c2bdbfb148b2d881c034773f6c8c4a824a61fcc726739|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|e5aa720db7775adcf4788703b127f6ddd889b5d62e9c27146afacb09e8d9d312|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|2c270ca25e526e5766d6796a207d7ff561de7e11614351472348432242681b12|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|bc30b46b00e5afd148a16c79be404f90d090c0fb1a289a72b8a4d977f730b33f|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|2f4bb78144774d30fd00b8efcd7bc48a2222a03685e986e65dba8f6bc0e2e152|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|85cea04adf42e4e218952375756cb3357fef137477559f309ad9aa368809bd3a|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|c567131c8c882615c17af6014a43554ba416e23f1371761426f28aa96167b1ad|region.purplish markup.error.sublime_linter|256",
+								"SL.mypy.Highlights.|6c0d180ca14cffa88e4289b9d4e398378dcc2c9ad8be95adebe1c1088cdd7fcf|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|68e7a9e39f6ad16c7b7e3faa41c8088cd94f2a5bf101107f150a55a81b93d988|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|0dbba3bd24737cafa553c81261d3a102ac2f3b5f39fe774e943b46366e59c9fb|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|7470457d983c42502bc6e5619306e05a6d2f36f430a1a830b01bd748d40cd228|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|19622472f865cdd65e7bd4dbd58429ef1b33e7d7e9f0460e8940801296db2634|region.purplish markup.warning.sublime_linter|32",
+								"SL.pylint.Highlights.|5da8cf9239aab0c553d543e9f6d07b71f5ea5f6ec9f6ac47e8ecad1722f578d2|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|15ee6c9376967385bd14954c95b682e47ade181b5c97313c18b568e72c6bb759|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|56f4c5a3b9e300b4e85118ef86560dbe909951b29fd432251a213d3df57a243f|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|6b0232b2b3850aeae2e46298114cd1402cc013b04afa33425568985d868a292b|region.purplish markup.error.sublime_linter|256",
+								"SL.mypy.Highlights.|3e3c842d28ac723183ba3eb7f22f285a8a82da18b3ea9ff01ba39b13c7d4b2f9|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|829f2465b7c1c3c221c64c874b9f6ec19e66e11801fb96633296b52a69245f22|region.purplish markup.error.sublime_linter|256",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/triangle.png",
+								"SL.pylint.Highlights.|4d38ef64ff51fc7608a29d882f3dbc292d8446d3770ca07a41c64df1751758c4|region.purplish markup.error.sublime_linter|256",
+								"SL.mypy.Highlights.|f2b75988206db06d5394f22f782bb59bbbbd9e3879e7567e5f255f9d9da04bc5|region.orangish markup.error.sublime_linter|256",
+								"SL.mypy.Gutter.|region.orangish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/x.png",
+								"SL.pylint.Highlights.|6ce7b965da3feb6f490e27b9817f227a8ec7e07d16cce25e15c4291adb626ef9|region.purplish markup.error.sublime_linter|256",
+								"SL.flake8.Highlights.|41333c6714eb88ae34370516e025e0a573d6ca148da68f8034c0aae2905e285b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.mypy.Highlights.|9b26196b4a1056d2ceb31abc8e27f1c0fe77964c648165413268f7f17de05398|region.orangish markup.error.sublime_linter|256",
+								"SL.mypy.Highlights.|06b6f87184a39382a865660ecd5eaf802677ebbfa62340f59562e51116cd1014|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|85e9bca1c363b24fc46b39fdd11d79631dcdab07db7abd6b25f14af4f9c7f148|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Gutter.|region.purplish markup.error.sublime_linter|circle",
+								"SL.mypy.Highlights.|23bf3d98edf596f4a400072b76ad257b25f08aae77f97e09a4eaa7a7978f6d36|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|88b6f96c41ed95ca26e31c1b3850b1d757482d870be184792e4f06e8a03c7a05|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|0d1846296df4621d401f2ee128260a240985905d4f2c2e50e03b4b7cdf161f0b|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|a5cda385245791935a7736f87bb3129733b201e81327aff10555b8ba6470155b|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|9a1a13e34e233cbf53792d23fa5ea56bf97a221a6fb0f2667cdc95fa1440686d|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|3e3cdb3c4b562b0c8be8ecc5e443579144919fc4862526ae758e0472a90ef7a9|region.purplish markup.error.sublime_linter|256",
+								"sublime_linter.protected_regions",
+								"SL.pylint.Highlights.|aff2e364072d68e7069dc70e3081532bc37eb1363c52aa240de76c157598c74e|region.purplish markup.error.sublime_linter|256",
+								"SL.mypy.Highlights.|851037b5da41e29e8457a12ead5963a2411f48fd88b055a997bd2e5cd3e5d6f7|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|08c15d33992df3ff6b3fd5dda7e4ea753232d68354abface5620bae7d2d179c7|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|d26bf214fa1f844f8aefb5c60b4b1644cbd9bb745ff41aee6062ec91ed318c31|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|db14a5547109ccfa3b02e3ca9a440f24dbbda9f79f9a6f4a76e81231584180c9|region.purplish markup.warning.sublime_linter|32"
+							],
+							"SL.69.region_keys":
+							[
+								"SL.pylint.Highlights.|3bb274e00e8edd7cf60b4b378ee8af68aba6e4faff9853909ce219cc0e489943|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Gutter.|region.purplish markup.warning.sublime_linter|circle",
+								"SL.mypy.Highlights.|c6fa1faa078ae76ffb563007eb4f54389bb4bfbf853c76ad5f23d716c039315a|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|e6cb0ff0eb186d81de96ab048621b41ca112cc17d715597d0b0cb98f95ad4a90|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|5a81dfcc0a15377a2e0c2bdbfb148b2d881c034773f6c8c4a824a61fcc726739|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|e5aa720db7775adcf4788703b127f6ddd889b5d62e9c27146afacb09e8d9d312|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|2c270ca25e526e5766d6796a207d7ff561de7e11614351472348432242681b12|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|bc30b46b00e5afd148a16c79be404f90d090c0fb1a289a72b8a4d977f730b33f|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|2f4bb78144774d30fd00b8efcd7bc48a2222a03685e986e65dba8f6bc0e2e152|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|85cea04adf42e4e218952375756cb3357fef137477559f309ad9aa368809bd3a|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|c567131c8c882615c17af6014a43554ba416e23f1371761426f28aa96167b1ad|region.purplish markup.error.sublime_linter|256",
+								"SL.mypy.Highlights.|6c0d180ca14cffa88e4289b9d4e398378dcc2c9ad8be95adebe1c1088cdd7fcf|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|68e7a9e39f6ad16c7b7e3faa41c8088cd94f2a5bf101107f150a55a81b93d988|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|0dbba3bd24737cafa553c81261d3a102ac2f3b5f39fe774e943b46366e59c9fb|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|7470457d983c42502bc6e5619306e05a6d2f36f430a1a830b01bd748d40cd228|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|19622472f865cdd65e7bd4dbd58429ef1b33e7d7e9f0460e8940801296db2634|region.purplish markup.warning.sublime_linter|32",
+								"SL.pylint.Highlights.|5da8cf9239aab0c553d543e9f6d07b71f5ea5f6ec9f6ac47e8ecad1722f578d2|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|15ee6c9376967385bd14954c95b682e47ade181b5c97313c18b568e72c6bb759|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|56f4c5a3b9e300b4e85118ef86560dbe909951b29fd432251a213d3df57a243f|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|6b0232b2b3850aeae2e46298114cd1402cc013b04afa33425568985d868a292b|region.purplish markup.error.sublime_linter|256",
+								"SL.mypy.Highlights.|3e3c842d28ac723183ba3eb7f22f285a8a82da18b3ea9ff01ba39b13c7d4b2f9|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|829f2465b7c1c3c221c64c874b9f6ec19e66e11801fb96633296b52a69245f22|region.purplish markup.error.sublime_linter|256",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/triangle.png",
+								"SL.pylint.Highlights.|4d38ef64ff51fc7608a29d882f3dbc292d8446d3770ca07a41c64df1751758c4|region.purplish markup.error.sublime_linter|256",
+								"SL.mypy.Highlights.|f2b75988206db06d5394f22f782bb59bbbbd9e3879e7567e5f255f9d9da04bc5|region.orangish markup.error.sublime_linter|256",
+								"SL.mypy.Gutter.|region.orangish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/x.png",
+								"SL.pylint.Highlights.|6ce7b965da3feb6f490e27b9817f227a8ec7e07d16cce25e15c4291adb626ef9|region.purplish markup.error.sublime_linter|256",
+								"SL.flake8.Highlights.|41333c6714eb88ae34370516e025e0a573d6ca148da68f8034c0aae2905e285b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.mypy.Highlights.|9b26196b4a1056d2ceb31abc8e27f1c0fe77964c648165413268f7f17de05398|region.orangish markup.error.sublime_linter|256",
+								"SL.mypy.Highlights.|06b6f87184a39382a865660ecd5eaf802677ebbfa62340f59562e51116cd1014|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|85e9bca1c363b24fc46b39fdd11d79631dcdab07db7abd6b25f14af4f9c7f148|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Gutter.|region.purplish markup.error.sublime_linter|circle",
+								"SL.mypy.Highlights.|23bf3d98edf596f4a400072b76ad257b25f08aae77f97e09a4eaa7a7978f6d36|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|88b6f96c41ed95ca26e31c1b3850b1d757482d870be184792e4f06e8a03c7a05|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|0d1846296df4621d401f2ee128260a240985905d4f2c2e50e03b4b7cdf161f0b|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|a5cda385245791935a7736f87bb3129733b201e81327aff10555b8ba6470155b|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|9a1a13e34e233cbf53792d23fa5ea56bf97a221a6fb0f2667cdc95fa1440686d|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|3e3cdb3c4b562b0c8be8ecc5e443579144919fc4862526ae758e0472a90ef7a9|region.purplish markup.error.sublime_linter|256",
+								"sublime_linter.protected_regions",
+								"SL.pylint.Highlights.|aff2e364072d68e7069dc70e3081532bc37eb1363c52aa240de76c157598c74e|region.purplish markup.error.sublime_linter|256",
+								"SL.mypy.Highlights.|851037b5da41e29e8457a12ead5963a2411f48fd88b055a997bd2e5cd3e5d6f7|region.orangish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|08c15d33992df3ff6b3fd5dda7e4ea753232d68354abface5620bae7d2d179c7|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|d26bf214fa1f844f8aefb5c60b4b1644cbd9bb745ff41aee6062ec91ed318c31|region.purplish markup.error.sublime_linter|256",
+								"SL.pylint.Highlights.|db14a5547109ccfa3b02e3ca9a440f24dbbda9f79f9a6f4a76e81231584180c9|region.purplish markup.warning.sublime_linter|32"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "polyphony_app/static/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2764,
+								2764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 126.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 126.0
+	},
+	"output.exec":
+	{
+		"height": 232.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "polyphony_site.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 516.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/gits/kivy-stubs/kivy_stubs.sublime-project"
+			]
+		],
+		"width": 392.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

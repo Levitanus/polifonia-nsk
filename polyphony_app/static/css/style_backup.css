@@ -1,0 +1,164 @@
+@import "native.css";
+/* @import url(http://allfont.net/allfont.css?fonts=baltica); */
+@font-face {
+  font-family: "MainLogo";
+  src: url("Molot.otf");
+  /* src: url(/static/SuicideSupervillains-X334g.woff); */
+}
+@font-face {
+  font-family: "spetial_logo";
+  src: url("FreeSerifBoldItalic-WX0A.ttf") format("truetype");
+}
+@font-face {
+  /* font-family: "VeryRegular"; */
+  font-family: "VeryRegular";
+  src: url("baltica_[allfont.net].ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeaderRegular";
+  src: url("Days-webfont.woff")format("woff");
+}
+body {
+    margin: auto;
+    width: 100%;
+    /* display: block; */
+    background-color: rgb(50, 50, 50);
+    color: rgb(155, 155, 155);
+    
+    font-size: 14pt;
+    font-family: VeryRegular;
+    /* font-style: regular; */
+}
+iframe {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
+    /* max-width: 576px; */
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    max-height: 100vh;
+}
+a {
+    color: rgb(170, 170, 150);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(200, 200, 180);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: HeaderRegular;
+    font-weight: normal;
+}
+header {
+    margin: 0;
+    padding: 0;
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: auto, auto;
+    justify-content: space-between;
+    align-content: center;
+}
+.header_item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    /* box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.2); */
+    /* padding: 15px; */
+    /* display: block; */
+    margin: 0;
+    padding-top: 0;
+    grid-column: 1,
+    /* float: left; */
+    /* padding-bottom: 5px; */
+    /* width: 300px; */
+}
+.logo_header{
+    font-family: MainLogo, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    height: 10%;
+    max-height: 100px;
+
+}
+.logo_header1{
+    font-family: MainLogo, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    padding: 0;
+    /* float: left; */
+}
+.logo_sub{
+    position: relative;
+    top: -10px;
+    left: 2px;
+    font-family: HeaderRegular;
+    /* font-size: 20px; */
+    font-size: 16px;
+    padding-top: 0;
+}
+.spetial_font, .spetial_font1{
+    padding: 0;
+    margin: 0;
+    font-family: spetial_logo, serif;
+    font-weight: normal;
+    /* font-variant: normal; */
+    /* font-style: oblique; */
+    font-kerning: auto;
+    /* font-size-adjust: .6; */
+    font-size: 50px;
+    /* font-size: 72px; */
+}
+.spetial_font1 {
+    position: relative;
+    /* padding-left: 10px; */
+    top: -2px;
+    left: 2px;
+}
+
+.login{
+    /* float: right; */
+    grid-column: 2;
+}
+
+.main_menu {
+    overflow: hidden;
+    /* z-index: 2; */
+    background-color: rgba(50, 50, 50, .9);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border-top-style: solid;
+    border-color: rgba(200, 200, 150, .8);
+    border-bottom-style: solid;
+    color: rgb(190, 190, 190);
+    padding-bottom: 5px;
+    box-shadow: 0 15px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.menu_item {
+    color: rgb(200, 200, 150);
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: HeaderRegular, sans-serif;
+    font-weight: normal;
+}
+.menu_item:hover {
+  background-color: rgba(200, 200, 150, .8);
+  color: black;
+}
+
+.main_content {
+    /* float: left; */
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(200, 200, 200,0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}

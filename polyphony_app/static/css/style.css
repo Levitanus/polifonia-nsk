@@ -1,0 +1,146 @@
+@import "native.css";
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900|Cormorant+Infant:400i|IBM+Plex+Serif:500i|Ledger|Montserrat:600&display=swap&subset=cyrillic');
+:root {
+  --font_VeryRegular: 'Ledger', serif;
+  --font_RegularItalic: 'Cormorant Infant', serif;
+  --font_HeaderRegular: 'Montserrat', sans-serif;
+  --font_MainLogo: 'Alegreya Sans SC', sans-serif;
+  --font_SpetialLogo: 'IBM Plex Serif', serif;
+}
+body {
+    margin: auto;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    color: rgb(155, 155, 155);
+}
+p, ul {
+    font-size: 18px;
+    font-family: var(--font_VeryRegular);
+    text-align: justify;
+    word-break: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    line-height: 1.3em;
+}
+i, i.b{
+    font-family: var(--font_RegularItalic);
+    font-size: 24px;
+    line-height: 1.1em;
+}
+
+iframe {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    max-height: 100vh;
+}
+a {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 10px #00000070;
+}
+a:hover{
+    /* color: rgb(200, 200, 180); */
+    text-shadow: 2px 2px 5px #ffffff50;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font_HeaderRegular);
+    font-weight: normal;
+}
+input {
+    max-width: 100%;
+}
+.logo{
+    margin: 0;
+    padding-top: 0;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: none;
+    /* grid-column: 1, */
+}
+.logo_header{
+    font-family: var(--font_MainLogo);
+    font-weight: normal;
+    font-size: 36px;
+    letter-spacing: -2px;
+    /* height: 10%; */
+}
+.logo_sub{
+    position: relative;
+    top: -10px;
+    left: 4px;
+    font-family: var(--font_HeaderRegular);
+    font-size: 13px;
+    padding-top: 0;
+    letter-spacing: 3px;
+}
+.spetial_font{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font_SpetialLogo);
+    font-weight: normal;
+    font-kerning: auto;
+    font-size: 45px;
+}
+
+.login{
+    /* float: right; */
+    /* grid-column: 2; */
+}
+.header_username{
+    margin: auto;
+    padding: 0;
+    width: 40px;
+    font-size: 11pt;
+    position: relative;
+    top: -15px;
+    /* left: 20px; */
+}
+
+.main_menu {
+    /* overflow: hidden; */
+    /* z-index: 2; */
+    /* background-color: rgba(50, 50, 50, .9); */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    /* padding: 5px;
+    border-top-style: solid;
+    border-color: rgba(200, 200, 150, .8);
+    border-bottom-style: solid;
+    color: rgb(190, 190, 190);
+    padding-bottom: 5px;
+    box-shadow: 0 15px 10px 5px rgba(0, 0, 0, 0.2); */
+}
+.menu_item {
+/*     color: rgb(200, 200, 150);
+    text-align: center;
+    padding: 5px 5px; */
+    text-decoration: none;
+    font-style: normal;
+    font-family: var(--font_HeaderRegular);
+    font-weight: normal;
+}
+/* .menu_item:hover {
+  background-color: rgba(200, 200, 150, .8);
+  color: black;
+}
+ */
+.main_content {
+    /* float: left; */
+    font-family: var(--font_VeryRegular);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(200, 200, 200,0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
