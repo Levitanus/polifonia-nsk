@@ -9,7 +9,7 @@
                 <h3>{{product.name}}</h3>
                 <div class="w3-cell-row">
                     <p class="w3-cell">{{product.price}} ₽</p>
-                    <a href="/pay/{{product.type_}} {{product.name}}" class="w3-button w3-cell w3-theme-d1">оплатить</a>
+                    <a href="/pay/{{product.id_}}" class="w3-button w3-cell w3-theme-d1">оплатить</a>
                 </div>
                 <p><img src={{product.pic}} alt="изображение" width=100%></p>
                 {% if product.lifetime %}
