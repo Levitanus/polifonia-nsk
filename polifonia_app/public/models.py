@@ -19,7 +19,8 @@ class Product:
         self.price = price
         self.lifetime = lifetime
         self.comment = comment
-        self.id_: str = translit(f'{type_} {name}', 'ru', True)
+        self.id_: str = translit(f'{type_} {name}', 'ru',
+                                 True).replace(' ', '_')
 
 
 ab4 = Product('Абонемент',
