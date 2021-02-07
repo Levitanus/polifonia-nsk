@@ -22,12 +22,14 @@ def pay_rules() -> str:
 
 @bp.route(
     '/pay/<product_id>',
-    # methods=['GET', 'POST'],
+    methods=['GET', 'POST'],
 )
 @bp.route('/payhalf/<product_id>')
 def pay(product_id: str) -> str:
     product = products[product_id]
     form = PaymentForm(request.form)
+    if request.method == 'POST':
+        raise Exception(request.form)
     if "/payhalf/" in str(request):
         if not product.can_be_halfed:
             abort(403)

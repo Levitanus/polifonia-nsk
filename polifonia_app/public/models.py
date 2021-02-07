@@ -35,7 +35,7 @@ class PaymentForm(Form):
     sum = IntegerField('Сумма к оплате', [validators.DataRequired()],
                        _name='sum')
     service_name = StringField('Название услуги', [validators.DataRequired()])
-    client_id = StringField(
+    clientid = StringField(
         'Представьтесь, пожалуйста '
         '(как угодно, главное - чтобы мы вас опознали)',
         [validators.DataRequired()])
