@@ -18,3 +18,9 @@ def index() -> str:
 @bp.route('/pay_rules')
 def pay_rules() -> str:
     return render_template('pay_rules.html')
+
+
+@bp.route('/pay/<product_id>', methods=['GET', 'POST'])
+def pay(product_id: str) -> str:
+    product = products[product_id]
+    return render_template('test_pay_widget.html', product=product)
