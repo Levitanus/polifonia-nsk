@@ -5,5 +5,5 @@ app = application = create_app()
 if __name__ == '__main__':
     host = 'localhost'
     host = '192.168.1.34'
-    host = '192.168.1.39'
+    # host = '192.168.1.39'
     app.run(host=host, port=9000, debug=True, load_dotenv=False)

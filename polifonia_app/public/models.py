@@ -15,6 +15,7 @@ from wtforms import (
 
 
 class Price:
+
     def __init__(self, price: int, rate: float = 3.3) -> None:
         self._value = price
         self._rate = rate
@@ -32,26 +33,38 @@ class Price:
 
 
 class PaymentForm(Form):
-    sum = IntegerField('Сумма к оплате', [validators.DataRequired()],
-                       _name='sum')
+    sum = IntegerField(
+        'Сумма к оплате', [validators.DataRequired()], _name='sum'
+    )
     service_name = StringField('Название услуги', [validators.DataRequired()])
     clientid = StringField(
         'Представьтесь, пожалуйста '
         '(как угодно, главное - чтобы мы вас опознали)',
-        [validators.DataRequired()])
+        [validators.DataRequired()]
+    )
     submit = SubmitField('К оплате')
 
 
+_links_template = """\
+<a href="{link}">{desc}</a>
+"""
+
+
 class Product:
-    def __init__(self,
-                 type_: str,
-                 pic: Path,
-                 name: str,
-                 price: int,
-                 quantaty: ty.Optional[int] = None,
-                 lifetime: ty.Optional[str] = None,
-                 comment: ty.Optional[str] = None,
-                 can_be_halfed: bool = False) -> None:
+
+    def __init__(
+        self,
+        type_: str,
+        pic: Path,
+        name: str,
+        price: int,
+        quantaty: ty.Optional[int] = None,
+        lifetime: ty.Optional[str] = None,
+        comment: ty.Optional[str] = None,
+        can_be_halfed: bool = False,
+        links: ty.Dict[str, str] = {},
+        can_be_paid: bool = True
+    ) -> None:
         self.type_ = type_
         self.pic = Path('/static/images') / pic
         self.name = name
@@ -62,6 +75,10 @@ class Product:
         self.id_: str = translit(f'{type_} {name}', 'ru',
                                  True).replace(' ', '_')
         self.can_be_halfed = can_be_halfed
+        self.links: str = ', '.join(
+            [_links_template.format(link=l, desc=d) for d, l in links.items()]
+        )
+        self.can_be_paid = can_be_paid
 
 
 ab4 = Product(
@@ -94,8 +111,39 @@ ab24 = Product(
     ' течение 2х месяцев: по 6 600₽',
     can_be_halfed=True,
 )
+song = Product(
+    'Сведение',
+    Path('mix_song.png'),
+    'голос + фонограмма',
+    2000,
+    comment='Сведение ансамблей и прочих нетипичных'
+    ' случаев лучше обговорить отдельно)',
+    links={'примеры': 'https://disk.yandex.ru/d/uw-OtVsBuZh2QA?w=1'}
+)
+arrangement = Product(
+    'Аранжировка',
+    Path('arrangement.png'),
+    'под ключ',
+    4000,
+    comment='цена указана за минуту готовой фонограммы',
+    links={
+        'примеры': 'https://audiomack.com/levitanus',
+        'ещё примеры': 'https://soundcloud.com/levitanus/sets'
+    },
+    can_be_paid=False,
+)
+rent = Product(
+    'Аренда',
+    Path('rent.png'),
+    'для уроков и репетиций',
+    100,
+    comment='цена указана за час',
+)
 products = {
     ab4.id_: ab4,
     ab8.id_: ab8,
     ab24.id_: ab24,
+    song.id_: song,
+    arrangement.id_: arrangement,
+    rent.id_: rent,
 }

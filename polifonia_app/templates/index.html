@@ -9,7 +9,11 @@
                 <h3>{{product.type_}} {{product.name}}</h3>
                 <div class="w3-cell-row">
                     <p class="w3-cell">{{product.price}} ₽ {% if product.quantaty %} <div class="main_small">({{product.price.value//product.quantaty}} ₽ за 1)</div>{% endif %}</p>
-                    <a href="/pay/{{product.id_}}" class="w3-button w3-cell w3-theme-d1">оплатить</a>
+                    {% if product.can_be_paid %}
+                        <a href="/pay/{{product.id_}}" class="w3-button w3-cell w3-theme-d1">оплатить</a>
+                    {% else %}
+                        <div class="w3-cell main_small">(Для оплаты, пожалуйста, свяжитесь с нами для получения персональной ссылки.)</div>
+                    {% endif %}
                     {% if product.can_be_halfed %}
                     <a href="/payhalf/{{product.id_}}" class="w3-button w3-cell w3-theme-d2" style="font-size: 8pt">оплатить половину</a>
                     {% endif %}
@@ -17,6 +21,9 @@
                 <p><img src={{product.pic}} alt="изображение" width=100%></p>
                 {% if product.lifetime %}
                     <p class="main_small">{{product.lifetime}}</p>
+                {% endif %}
+                {% if product.links %}
+                    {{product.links|safe}}
                 {% endif %}
                 {% if product.comment %}
                     <p class="main_small w3-theme-d4">* {{product.comment}}</p>
