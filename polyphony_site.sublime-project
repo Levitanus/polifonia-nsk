@@ -13,23 +13,5 @@
 		{
 			"path": "."
 		}
-	],
-	"settings":
-	{
-        "SublimeLinter.linters.mypy.args": [
-                // "--disallow-any-expr",
-                // "--disallow-subclassing-any",
-                // "--disallow-untyped-calls",
-                // "--disallow-untyped-defs",
-                // "--disallow-incomplete-defs",
-                // "--disallow-untyped-decorators",
-                "--warn-redundant-casts",
-                "--warn-unused-ignores",
-                "--warn-return-any",
-                "--warn-unreachable",
-                "--show-error-context",
-                "--show-column-numbers",
-            ],
-        "SublimeLinter.linters.mypy.follow-imports": "silent",
-	}
+	]
 }

@@ -4,607 +4,606 @@
 		"selected_items":
 		[
 			[
-				"pad",
-				"padding-bottom\tproperty"
+				"can",
+				"can_be_paid\tstatement"
 			],
 			[
-				"sty",
-				"style\tAttr"
+				"w",
+				"width\tAttr"
 			],
 			[
-				"st",
-				"style\t<style>"
+				"sample_",
+				"sample_editor\tmodule"
 			],
 			[
-				"ma",
-				"main\t<main>"
+				"Art",
+				"ArtsHandler\tclass"
 			],
 			[
-				"wid",
-				"width\tproperty"
+				"art",
+				"arts_handler\tmodule"
 			],
 			[
-				"Disc",
-				"DiscountRule\tclass"
+				"Loo",
+				"LoopSlicer\tclass"
 			],
 			[
-				"Dis",
-				"DiscountRule\tclass"
+				"hop",
+				"hop_length=\tparam"
 			],
 			[
-				"add_",
-				"add_view\tfunction"
+				"frame",
+				"frame_length\tstatement"
 			],
 			[
-				"Ty",
-				"TypeVar\tclass"
+				"logica",
+				"logical_not\tinstance"
 			],
 			[
-				"vali",
-				"validate_peice\tfunction"
+				"clean",
+				"clean_weighted\tstatement"
 			],
 			[
-				"Us",
-				"UserGroup\tclass"
+				"gre",
+				"greater_equal\tinstance"
 			],
 			[
-				"subj",
-				"subject_id\tparam"
+				"med",
+				"median\tfunction"
 			],
 			[
-				"hr",
-				"href\tAttr"
+				"fram",
+				"frame_length\tstatement"
 			],
 			[
-				"sub",
-				"subjects\tstatement"
+				"mode",
+				"mode_equivalents\tstatement"
 			],
 			[
-				"ch",
-				"choices\tstatement"
+				"onse",
+				"onset_wait"
 			],
 			[
-				"less_t",
-				"less_t_form\tstatement"
+				"sample",
+				"sample_end\tstatement"
 			],
 			[
-				"subj_",
-				"subject_names"
+				"meta",
+				"metadata_key_rr\tfunction"
 			],
 			[
-				"less",
-				"lesson_types"
+				"key",
+				"metadata_key\tfunction"
 			],
 			[
-				"i",
-				"i\t<i>"
+				"Pic",
+				"PitchError\tclass"
 			],
 			[
-				"Inte",
-				"IntegerField\tclass"
+				"enum",
+				"enum_index\tstatement"
 			],
 			[
-				"add",
-				"add_subject_cb\tfunction"
+				"regio",
+				"regions_w_metadata\tstatement"
 			],
 			[
-				"ADd",
-				"AddSubjectForm\tclass"
-			],
-			[
-				"inp",
-				"inputs\tinput - submit"
-			],
-			[
-				"group",
-				"groups\tparam"
-			],
-			[
-				"Use",
-				"UserGroup\tclass"
-			],
-			[
-				"price",
-				"price_per_hour\tfunction"
-			],
-			[
-				"solo",
-				"solo_vocal\tstatement"
-			],
-			[
-				"is",
-				"is_group\tparam"
-			],
-			[
-				"polyp",
-				"polyphony_app\tmodule"
-			],
-			[
-				"get",
-				"getattr\tfunction"
-			],
-			[
-				"UserGro",
-				"UserGroupForm\tclass"
-			],
-			[
-				"met",
-				"method\tAttr"
-			],
-			[
-				"label",
-				"label\t<label>"
-			],
-			[
-				"h",
-				"hr\t<hr>"
-			],
-			[
-				"filter",
-				"filter"
-			],
-			[
-				"User",
-				"UserCard\tclass"
-			],
-			[
-				"Car",
-				"UserCard\tclass"
-			],
-			[
-				"in",
-				"in_group"
-			],
-			[
-				"user",
-				"username\tparam"
-			],
-			[
-				"da",
-				"data_required_msg\tstatement"
-			],
-			[
-				"ur",
-				"url_prfx\tstatement"
-			],
-			[
-				"pass",
-				"password_repeat\tparam"
-			],
-			[
-				"password",
-				"password_repeat"
-			],
-			[
-				"pas",
-				"password_new\tstatement"
-			],
-			[
-				"n",
-				"npswd\tstatement"
-			],
-			[
-				"pa",
-				"password_new"
-			],
-			[
-				"sta",
-				"status_code"
-			],
-			[
-				"logi",
-				"login_required\tfunction"
-			],
-			[
-				"data",
-				"data_required_msg"
-			],
-			[
-				"poy",
-				"polyphony_app\tmodule"
-			],
-			[
-				"lo",
-				"LoginForm\tclass"
-			],
-			[
-				"re",
-				"response\tstatement"
-			],
-			[
-				"poly",
-				"polyphony_app\tmodule"
-			],
-			[
-				"url",
-				"url_for\tfunction"
-			],
-			[
-				"nex",
-				"next_page\tstatement"
-			],
-			[
-				"Int",
-				"IntFlag\tclass"
-			],
-			[
-				"hea",
-				"head\t<head>"
-			],
-			[
-				"flask_",
-				"flask_sqlalchemy\tmodule"
-			],
-			[
-				"ap",
-				"init_app\tfunction"
-			],
-			[
-				"login",
-				"login_view\tstatement"
-			],
-			[
-				"flask",
-				"flask_wtf\tmodule"
-			],
-			[
-				"ins",
-				"instance_path\tstatement"
-			],
-			[
-				"app",
-				"app_context\tfunction"
-			],
-			[
-				"logo",
-				"logout_user\tfunction"
-			],
-			[
-				"reme",
-				"remember_me\tstatement"
-			],
-			[
-				"loginu",
-				"login_user\tfunction"
-			],
-			[
-				"use",
-				"user_loader\tfunction"
-			],
-			[
-				"date",
-				"datetime\tclass"
-			],
-			[
-				"margi",
-				"margin\tproperty"
-			],
-			[
-				"ema",
-				"email_check"
-			],
-			[
-				"Valia",
-				"ValidationError\tclass"
-			],
-			[
-				"register",
-				"register_password"
-			],
-			[
-				"if",
-				"if\tIf"
+				"era",
+				"erase_metadata\tfunction"
 			],
 			[
 				"reg",
-				"register_form\tstatement"
+				"regions_w_mdata\tstatement"
 			],
 			[
-				"valia",
-				"validate_on_submit\tfunction"
+				"ih",
+				"items_handler=\tparam"
 			],
 			[
-				"inde",
-				"index_page\tinstance"
+				"value",
+				"values\tparam"
 			],
 			[
-				"Log",
-				"LoginForm\tclass"
+				"fade_",
+				"fade_out\tstatement"
 			],
 			[
-				"context",
-				"app_context\tfunction"
+				"wildcar",
+				"wildcards_i\tstatement"
 			],
 			[
-				"log",
-				"login_form\tstatement"
+				"Wild",
+				"Wildcard\tclass"
 			],
 			[
-				"max",
-				"max-width\tproperty"
+				"proce",
+				"process_wildcards\tfunction"
 			],
 			[
-				"al",
-				"alt\tAttr"
+				"spl",
+				"split_by_items_gaps\tfunction"
 			],
 			[
-				"style",
-				"style\tAttr"
+				"rgn",
+				"rgn_w_mdata\tstatement"
 			],
 			[
-				"spa",
-				"space-between"
+				"rgns",
+				"regions_w_mdata\tstatement"
 			],
 			[
-				"grid-te",
-				"grid-template-columns\tproperty"
+				"Regio",
+				"RegionContents\tclass"
 			],
 			[
-				"paddi",
-				"padding-left\tproperty"
+				"fade",
+				"fade_all\tfunction"
 			],
 			[
-				"font-si",
-				"font-size-adjust\tproperty"
+				"Value",
+				"ValuesFilledType\tclass"
 			],
 			[
-				"font",
-				"font-kerning"
+				"F",
+				"FadeRegions\tclass"
 			],
 			[
-				"padd",
-				"padding-bottom\tproperty"
+				"dire",
+				"direction_text"
 			],
 			[
-				"mar",
-				"margin-right\tproperty"
+				"dir",
+				"direction_text"
 			],
 			[
-				"borde",
-				"border-radius\tproperty"
+				"for",
+				"for_selection\tstatement"
 			],
 			[
-				"bord",
-				"border-style\tproperty"
+				"item_",
+				"item_for_selection\tfunction"
 			],
 			[
-				"ove",
-				"overflow\tproperty"
+				"region",
+				"region_bounds"
 			],
 			[
-				"box",
-				"box-shadow\tproperty"
+				"item",
+				"item_bounds\tparam"
 			],
 			[
-				"color",
-				"color\tproperty"
+				"regi",
+				"region_bounds\tparam"
 			],
 			[
-				"ali",
-				"align-self\tproperty"
+				"all",
+				"all_items\tstatement"
 			],
 			[
-				"rgb",
-				"rgb()"
+				"sele",
+				"select_all_items\tfunction"
 			],
 			[
-				"ren",
-				"render_template_string\tfunction"
+				"def",
+				"defaults=\tparam"
 			],
 			[
-				"rg",
-				"rgba()"
+				"Filed",
+				"ValuesFilledType"
 			],
 			[
-				"background-c",
-				"background-color\tproperty"
+				"Items",
+				"ItemsHandler\tclass"
 			],
 			[
-				"border-s",
-				"border-style\tproperty"
+				"bound",
+				"bounds\tstatement"
 			],
 			[
-				"bor",
-				"border-left\tproperty"
+				"sam",
+				"sample\tstatement"
 			],
 			[
-				"va",
-				"_variables\tstatement"
+				"want",
+				"want_trend\tparam"
 			],
 			[
-				"var",
-				"_variables"
+				"has",
+				"has_one\tstatement"
 			],
 			[
-				"rou",
-				"route\tparam"
+				"SHA",
+				"FADE_SHAPES"
 			],
 			[
-				"Base",
-				"BasePage\tclass"
+				"pos",
+				"position\tfunction"
 			],
 			[
-				"bac",
-				"background-color\tproperty"
+				"get_fi",
+				"get_first_rms_value_ms\tfunction"
 			],
 			[
-				"static_",
-				"static_host\tparam"
+				"min",
+				"min_duration=\tparam"
 			],
 			[
-				"lesso",
-				"lessons\tstatement"
+				"mid",
+				"min_duration\tparam"
 			],
 			[
-				"teach",
-				"teachers_availble\tstatement"
+				"post",
+				"post_marker\tstatement"
 			],
 			[
-				"Les",
-				"LessonType\tclass"
+				"val",
+				"val_normalized\tstatement"
 			],
 			[
-				"week",
-				"weeks\tstatement"
+				"leng",
+				"length_convert\tfunction"
 			],
 			[
-				"les",
-				"lessons\tstatement"
+				"Item",
+				"ItemsError\tclass"
 			],
 			[
-				"tea",
-				"teachers_availble\tstatement"
+				"next",
+				"next_onset\tstatement"
 			],
 			[
-				"Tea",
-				"Teacher\tclass"
+				"len",
+				"length_convert\tfunction"
 			],
 			[
-				"Stu",
-				"StudentPersTime\tclass"
+				"unit",
+				"units_target"
 			],
 			[
-				"tim",
-				"timedelta\tclass"
+				"units",
+				"units_def"
 			],
 			[
-				"S",
-				"Subject\tclass"
+				"uni",
+				"units_def\tparam"
 			],
 			[
-				"Less",
-				"LessonType\tclass"
+				"sampl",
+				"samples_to_time\tfunction"
 			],
 			[
-				"_re",
-				"_related_files\tstatement"
+				"sa",
+				"samples_to_frames\tfunction"
+			],
+			[
+				"get",
+				"get_bounds\tfunction"
+			],
+			[
+				"db",
+				"db_to_amplitude\tfunction"
+			],
+			[
+				"sil",
+				"post_silence"
+			],
+			[
+				"start",
+				"start_offset\tparam"
+			],
+			[
+				"star",
+				"start_offset\tstatement"
+			],
+			[
+				"items",
+				"items_handler\tparam"
+			],
+			[
+				"time_",
+				"time_to_samples\tfunction"
 			],
 			[
 				"load",
-				"loads\tfunction"
+				"load_values"
 			],
 			[
-				"teac",
-				"teacher_id\tstatement"
+				"Type",
+				"TypeError\tclass"
 			],
 			[
-				"Lesso",
-				"LessonStatus\tclass"
+				"menu",
+				"MainMenu\tclass"
 			],
 			[
-				"stu",
-				"students_access"
+				"DEFA",
+				"DEFAULT_BACKGROUND_COLOR\tstatement"
+			],
+			[
+				"BACK",
+				"DEFAULT_ELEMENT_BACKGROUND_COLOR\tstatement"
+			],
+			[
+				"Menu",
+				"MenuBar\tstatement"
+			],
+			[
+				"main",
+				"main_menu\tparam"
+			],
+			[
+				"Me",
+				"MenuBar\tstatement"
+			],
+			[
+				"Tab",
+				"TabGroup\tclass"
+			],
+			[
+				"back",
+				"backtrack"
+			],
+			[
+				"defa",
+				"default_value"
+			],
+			[
+				"Che",
+				"Checkbox\tclass"
+			],
+			[
+				"Col",
+				"Column\tclass"
+			],
+			[
+				"frames_",
+				"frames_to_samples\tfunction"
+			],
+			[
+				"onset",
+				"onset_envelope\tstatement"
+			],
+			[
+				"fmi",
+				"fmin=\tparam"
+			],
+			[
+				"ch",
+				"chroma_cqt\tfunction"
+			],
+			[
+				"fra",
+				"frames_to_time\tfunction"
+			],
+			[
+				"add",
+				"add_marker\tfunction"
+			],
+			[
+				"post_",
+				"post_max\tstatement"
+			],
+			[
+				"_audio_",
+				"_audio_mono\tstatement"
+			],
+			[
+				"bac",
+				"onset_backtrack\tfunction"
 			],
 			[
 				"time",
-				"time_start\tparam"
+				"time_to_frames\tfunction"
 			],
 			[
-				"_da",
-				"_date_start\tstatement"
+				"times",
+				"times_like\tfunction"
 			],
 			[
-				"del",
-				"delta\tstatement"
+				"tim",
+				"time_to_samples\tfunction"
 			],
 			[
-				"pri",
-				"price_per_hour\tparam"
+				"ons",
+				"onsets_vis\tstatement"
 			],
 			[
-				"ver",
-				"verify_and_update\tfunction"
+				"pi",
+				"peak_pick\tfunction"
+			],
+			[
+				"repla",
+				"replace_all_samplemod\tfunction"
+			],
+			[
+				"pro",
+				"project_id\tstatement"
+			],
+			[
+				"enu",
+				"enum_index\tparam"
+			],
+			[
+				"pare",
+				"parent_project_id=\tparam"
+			],
+			[
+				"mrk",
+				"marker"
+			],
+			[
+				"reasc",
+				"reascript_api\tmodule"
+			],
+			[
+				"find",
+				"find\tfunction"
+			],
+			[
+				"std",
+				"stdout\tstatement"
+			],
+			[
+				"fin",
+				"find\tfunction"
+			],
+			[
+				"as",
+				"absolute\tfunction"
+			],
+			[
+				"split",
+				"split_ih\tstatement"
+			],
+			[
+				"Wildc",
+				"Wildcard\tclass"
+			],
+			[
+				"sile",
+				"silence_treshold"
+			],
+			[
+				"sus_",
+				"sus_want_cut"
+			],
+			[
+				"Valu",
+				"ValuesType\tclass"
+			],
+			[
+				"upda",
+				"update_timeline\tfunction"
+			],
+			[
+				"Pop",
+				"PopupOK\tfunction"
+			],
+			[
+				"count",
+				"count_ts"
+			],
+			[
+				"medi",
+				"median_rms"
+			],
+			[
+				"cut",
+				"cut_handler"
+			],
+			[
+				"fade_o",
+				"fade_out_time"
+			],
+			[
+				"e",
+				"end\tfunction"
+			],
+			[
+				"silen",
+				"silence_db"
+			],
+			[
+				"Po",
+				"PopupOKCancel\tfunction"
+			],
+			[
+				"get_",
+				"get_closest_region\tfunction"
+			],
+			[
+				"cur",
+				"cursor_position"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "placeholder/index.html",
+			"file": "polyphony.py",
 			"settings":
 			{
-				"buffer_size": 6716,
+				"buffer_size": 245,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "polyphony_site.sublime-project",
+			"file": "polifonia_app/public/views.py",
 			"settings":
 			{
-				"buffer_size": 924,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "polyphony_app/templates/base.html",
-			"settings":
-			{
-				"buffer_size": 3344,
+				"buffer_size": 1445,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "polyphony_app/users/models.py",
+			"file": "polifonia_app/public/models.py",
 			"settings":
 			{
-				"buffer_size": 4415,
+				"buffer_size": 3690,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "polyphony_app/static/css/style.css",
+			"file": "setup.py",
 			"settings":
 			{
-				"buffer_size": 3412,
+				"buffer_size": 460,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polifonia_app/static/css/style.css",
+			"settings":
+			{
+				"buffer_size": 3501,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polifonia_app/app.py",
+			"settings":
+			{
+				"buffer_size": 1094,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polifonia_app/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 2985,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polifonia_app/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 1617,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polifonia_app/templates/about_us.html",
+			"settings":
+			{
+				"buffer_size": 62,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "Anaconda Python Builder",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
-		[
-			[
-				[
-					"Anaconda Python Builder",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					"Syntax Check"
-				],
-				[
-					"Packages/User/python3_my.sublime-build",
-					""
-				]
-			],
-			[
-				"Anaconda Python Builder",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/Lua/Lua.sublime-build",
-					""
-				],
-				[
-					"Packages/User/python3_my.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/Lua/Lua.sublime-build",
-				""
-			]
-		],
 		[
 			[
 				[
@@ -630,76 +629,28 @@
 		"selected_items":
 		[
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"pyap",
-				"PyYapf: Format Document"
+				"enab",
+				"Package Control: Enable Package"
 			],
 			[
-				"html",
-				"HTMLBeautify"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
-				"toggl",
-				"Toggle Uncovered Lines"
-			],
-			[
-				"pytes",
-				"PyTest: Run: All"
-			],
-			[
-				"Package Control: insta",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: remo",
-				"Package Control: Remove Package"
-			],
-			[
-				"Package Control: install",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: instal",
-				"Package Control: Install Package"
+				"disa",
+				"Package Control: Disable Package"
 			],
 			[
 				"remo",
 				"Package Control: Remove Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"package",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: inst",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: rem",
-				"Package Control: Remove Package"
-			],
-			[
-				"Package Control: re",
-				"Package Control: Remove Package"
-			],
-			[
 				"jed",
 				"SublimeJedi: Show Signature"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
 			]
 		],
 		"width": 0.0
@@ -709,7 +660,6 @@
 		"height": 157.0,
 		"history":
 		[
-			"asd",
 			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 		]
 	},
@@ -724,156 +674,152 @@
 	},
 	"expanded_folders":
 	[
-		"/home/levitanus/gits/polyphony_site",
-		"/home/levitanus/gits/polyphony_site/placeholder",
-		"/home/levitanus/gits/polyphony_site/polyphony_app",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/static",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/static/css",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/templates",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates",
-		"/home/levitanus/gits/polyphony_site/tests",
-		"/home/levitanus/gits/polyphony_site/tests/lessons",
-		"/home/levitanus/gits/polyphony_site/tests/users"
+		"/home/levitanus/gits/polifonia-nsk",
+		"/home/levitanus/gits/polifonia-nsk/polifonia_app",
+		"/home/levitanus/gits/polifonia-nsk/polifonia_app/public",
+		"/home/levitanus/gits/polifonia-nsk/polifonia_app/static",
+		"/home/levitanus/gits/polifonia-nsk/polifonia_app/static/css",
+		"/home/levitanus/gits/polifonia-nsk/polifonia_app/static/images",
+		"/home/levitanus/gits/polifonia-nsk/polifonia_app/templates"
 	],
 	"file_history":
 	[
-		"/home/levitanus/gits/polyphony_site/temp_index.html",
-		"/home/levitanus/gits/polyphony_site/tests/lessons/test_models.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/forms.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/static/css/style.css",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/lessons/templates/dashboard.html",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/lessons/models.py",
-		"/home/levitanus/gits/polyphony_site/tests/conftest.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/app.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/lessons/views.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/lessons/forms.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/templates/base.html",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/templates/index.html",
-		"/home/levitanus/gits/polyphony_site/setup.py",
-		"/home/levitanus/gits/polyphony_site/tests/users/simple_test.py",
-		"/home/levitanus/gits/polyphony_site/tests/simple_test.py",
-		"/home/levitanus/gits/polyphony_site/config.py",
-		"/home/levitanus/Загрузки/думка/думка исполнения.rst",
-		"/home/levitanus/Загрузки/думка/казацкая на русском",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/public/views.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/lessons/__init__.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/models.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/__init__.py",
-		"/home/levitanus/gits/polyphony_site/polyphony.py",
-		"/home/levitanus/gits/polyphony_site/tests/users/test_models.py",
-		"/home/levitanus/gits/polyphony_site/tests/users/__init__.py",
-		"/home/levitanus/gits/polyphony_site/tests/lessons/__init__.py",
-		"/home/levitanus/gits/polyphony_site/tests/users/test_views.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/views.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/profile.html",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/user.html",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/_user_admin_view.html",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/_user_student_view.html",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/auth.html",
-		"/home/levitanus/gits/site/kontrapunkt_app/routes.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/register.html",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/templates/login.html",
-		"/home/levitanus/gits/site/kontrapunkt_app/login.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/templates/login.html",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/users/views_back.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/public/__init__.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/public/templates/index.html",
-		"/home/levitanus/gits/polyphony_site/polyphony_app/views.py",
-		"/home/levitanus/gits/polyphony_site/tests/users/test_forms.py",
-		"/home/levitanus/gits/polyphony_site/tests/users/conftest.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_site.sublime-project",
-		"/home/levitanus/gits/polyphony_site/app/users/views.py",
-		"/home/levitanus/gits/polyphony_site/app/users/templates/auth.html",
-		"/home/levitanus/gits/polyphony_site/app/users/__init__.py",
-		"/home/levitanus/gits/polyphony_site/app/users/models.py",
-		"/home/levitanus/gits/polyphony_site/app/app.py",
-		"/home/levitanus/gits/polyphony_site/app/templates/base.html",
-		"/home/levitanus/gits/polyphony_site/app/users/templates/login.html",
-		"/home/levitanus/gits/site/kontrapunkt_app/templates/base.html",
-		"/home/levitanus/gits/polyphony_site/app/templates/users/login.html",
-		"/home/levitanus/gits/site/kontrapunkt_app/user.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/models.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/templates/login_form.html",
-		"/home/levitanus/gits/polyphony_site/app/users/forms.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/forms.py",
-		"/home/levitanus/gits/polyphony_site/instance/app.db",
-		"/home/levitanus/gits/polyphony_site/app/db.py",
-		"/home/levitanus/.local/lib/python3.7/site-packages/flask_migrate/__init__.py",
-		"/home/levitanus/gits/polyphony_site/polyphony_app.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/app.py",
-		"/home/levitanus/gits/polyphony_site/app/__init__.py",
-		"/home/levitanus/.local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/config.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/base.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/static/css/style.css",
-		"/home/levitanus/gits/site/kontrapunkt_app/templates/user.html",
-		"/home/levitanus/gits/site/kontrapunkt_app/__init__.py",
-		"/home/levitanus/gits/site/kontrapunkt.py",
-		"/home/levitanus/gits/site/site.sublime-project",
-		"/home/levitanus/gits/site/kontrapunkt_app/index.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/templates/test.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/templates/index.html",
-		"/home/levitanus/gits/site/polyphony_config.py",
-		"/home/levitanus/gits/site/kontrapunkt_app/static/native.css",
-		"/home/levitanus/gits/site/kontrapunkt_app/static/style_backup.css",
-		"/home/levitanus/gits/site/kontrapunkt_app/static/style.css",
-		"/home/levitanus/gits/site/kontrapunkt_app/static/monokai.css",
-		"/home/levitanus/gits/site/kontrapunkt_app/templates/style.css",
-		"/home/levitanus/gits/site/guniconr.conf.py",
-		"/home/levitanus/gits/site/setup.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/gui/config.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/gui/normalizer.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/gui/main_gui.py",
+		"/home/levitanus/gits/sample_editor/test.py",
+		"/home/levitanus/gits/sample_editor/test_arts.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/loudness.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/item_handler.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/pitch_tracker.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/gui/arts_handler.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/gui/loop_slicer.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/gui/abstract.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/gui/__init__.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/gui/widgets.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/tools.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/widgets.py",
+		"/home/levitanus/gits/sample_editor/test2.py",
+		"/home/levitanus/gits/sample_editor/test3.py",
+		"/home/levitanus/gits/sample_editor/sample_maps.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/gui/__init__>py",
+		"/home/levitanus/gits/sample_editor/sample_editor/gui.py",
+		"/media/levitanus/RAID/contrabasses/контрабасы cut shorts.rpp",
+		"/media/levitanus/RAID/contrabasses/контрабасы cut shorts look.RPP",
+		"/home/levitanus/gits/reapy/reapy/core/project/project.py",
+		"/home/levitanus/Загрузки/temp/🔸 Вода и еда.",
+		"/home/levitanus/gits/sample_editor/test_arts_bck.py",
+		"/home/levitanus/gits/reapy/reapy/core/reapy_object.pyi",
+		"/home/levitanus/gits/sample_editor/sample_editor/render_tools.py",
+		"/home/levitanus/gits/reapy/reapy/core/item/item.py",
+		"/media/levitanus/RAID/contrabasses/контрабасы cut shorts.RPP",
+		"/media/levitanus/RAID/contrabasses/контрабасы cut shortsrpp.RPP",
+		"/home/levitanus/.local/lib/python3.8/site-packages/PySimpleGUI/PySimpleGUI.py",
+		"/home/levitanus/Документы/2021.01.18 обращение Бондаренко.txt",
+		"/home/levitanus/gits/reapy/reapy/core/project/region.py",
+		"/media/levitanus/RAID/contrabasses/RFS CB hise/Scripts/rlsLegFilter.js",
+		"/media/levitanus/RAID/contrabasses/RFS CB hise/Scripts/StartOffset.js",
+		"/home/levitanus/gits/sample_editor/.ropeproject/config.py",
+		"/media/levitanus/RAID/contrabasses/RFS CB hise/Scripts/event_filter.js",
+		"/media/levitanus/RAID/contrabasses/RFS CB hise/Scripts/sulHandler.js",
+		"/media/levitanus/RAID/contrabasses/RFS CB hise/Binaries/Builds/LinuxMakefile/Makefile",
+		"/home/levitanus/gits/sample_editor/out.xml",
+		"/media/levitanus/RAID/contrabasses/RFS CB hise/SampleMaps/cb Trem sulTop sus.xml",
+		"/media/levitanus/RAID/contrabasses/RFS CB hise/SampleMaps/cb Trem sulTop sus_edit.xml",
+		"/home/levitanus/.config/sublime-text-3/Packages/User/HISEScript.sublime-settings",
+		"/home/levitanus/.config/sublime-text-3/Packages/HISEScript/HISEScript.sublime-settings",
+		"/home/levitanus/gits/reapy/reapy/__init__.py",
+		"/home/levitanus/gits/reapy/reapy/core/__init__.py",
+		"/home/levitanus/gits/reapy/reapy/core/project/__init__.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/test2.py",
+		"/home/levitanus/gits/sample_editor/README.md",
+		"/home/levitanus/gits/sample_editor/setup.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/__main__.py",
+		"/media/levitanus/RaidNew/Емельянов/samplopomogator/samplopomogator/__main__.py",
+		"/media/levitanus/RaidNew/Емельянов/samplopomogator/setup.py",
+		"/home/levitanus/.local/lib/python3.8/site-packages/librosa/core/convert.py",
+		"/home/levitanus/gits/rope/ropetest/refactor/extracttest.py",
+		"/home/levitanus/gits/rope/ropetest/refactor/patchedasttest.py",
+		"/opt/REAPER/Plugins/reaper_python.py",
+		"/media/levitanus/RAID/contrabasses/контрабасы cut trem.rpp",
+		"/home/levitanus/gits/sample_editor/sample_editor/persistence.py",
+		"/home/levitanus/gits/rope/rope/refactor/patchedast.py",
+		"/home/levitanus/gits/test.py",
+		"/home/levitanus/gits/rope/ropetest/refactor/renametest.py",
+		"/home/levitanus/gits/rope/rope/refactor/similarfinder.py",
+		"/home/levitanus/gits/rope/rope/refactor/extract.py",
+		"/home/levitanus/gits/music and IT conference/README.md",
+		"/home/levitanus/gits/sample_editor/stat_arts.py",
+		"/media/levitanus/RaidNew/Емельянов/samplopomogator/samplopomogator/gui.py",
+		"/home/levitanus/gits/LinVst/Makefile-64-32bit",
+		"/home/levitanus/gits/LinVst/Makefile",
+		"/home/levitanus/gits/sample_editor/sample_editor/loop_finder.py",
+		"/media/levitanus/RaidNew/Гитара пример/Resources/scripts/IndiPop sublime/main.ksp",
+		"/media/levitanus/RaidNew/Гитара пример/Resources/scripts/guitar.ksp",
+		"/media/levitanus/RaidNew/Гитара пример/Resources/scripts/IndiPop sublime/definition.ksp",
+		"/media/levitanus/RaidNew/Емельянов/samplopomogator/__main__.py",
+		"/media/levitanus/RaidNew/Емельянов/samplopomogator/samplopomogator/loop_finder.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/test.py",
+		"/home/levitanus/gits/pitch-detection-librosa-python-master/script_final.py",
+		"/media/levitanus/RaidNew/Емельянов/samplopomogator/samplopomogator/item_handler.py",
+		"/home/levitanus/.config/sublime-text-3/Packages/AutoDocstring/Default (Linux).sublime-keymap",
+		"/home/levitanus/gits/sample_editor/sample_editor/audio.py",
+		"/home/levitanus/gits/sample_editor/sample_editor/test_reastream.py",
+		"/home/levitanus/.config/REAPER/Scripts/left_click.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/pymouse/unix.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/pymouse/__init__.py",
+		"/home/levitanus/.wine/drive_c/users/levitanus/Local Settings/Application Data/Programs/Python/Python38/Lib/site-packages/win32/win32api.pyd",
+		"/home/levitanus/gits/numpy-stubs/numpy-stubs/__init__.pyi",
+		"/home/levitanus/.local/lib/python3.7/site-packages/reapy/__init__.py",
+		"/home/levitanus/.local/lib/python3.7/site-packages/reapy/tools/__init__.py",
+		"/home/levitanus/Загрузки/LinVst-master/Makefile-embed-6432",
 		"/home/levitanus/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
-		"/home/levitanus/.config/sublime-text-3/Packages/User/JSON (Sublime).sublime-settings",
-		"/home/levitanus/gits/python_flask_webpush_notification/main.py",
-		"/home/levitanus/gits/site/tests/backend/test_models.py",
-		"/home/levitanus/gits/site/app_backend/test.py",
-		"/home/levitanus/gits/python_flask_webpush_notification/templates/index.html",
-		"/home/levitanus/gits/site/app_backend/models.py",
-		"/home/levitanus/gits/site/app_backend/site_config.py",
-		"/home/levitanus/gits/site/tests/backend/create_database.py",
-		"/home/levitanus/gits/python_flask_webpush_notification/static/main.js",
-		"/home/levitanus/gits/site/tests/backend/test_config.py",
-		"/home/levitanus/.config/sublime-text-3/Packages/PyCover/PyCover.sublime-settings",
-		"/home/levitanus/.config/sublime-text-3/Packages/User/PyCover.sublime-settings",
-		"/home/levitanus/gits/site/app_backend/__init__.py",
-		"/home/levitanus/gits/reapy/setup.py",
-		"/home/levitanus/gits/site/backend/security.py",
-		"/home/levitanus/gits/site/backend/site_config.py",
-		"/home/levitanus/gits/site/backend/test.py",
-		"/home/levitanus/gits/site/backend/test2.py",
-		"/home/levitanus/gits/site/backend/create_test_data.py",
-		"/home/levitanus/gits/site/app_backend/test2.py",
-		"/home/levitanus/.local/lib/python3.7/site-packages/passlib/__init__.py",
-		"/home/levitanus/gits/site/backend/.ropeproject/config.py",
-		"/home/levitanus/gits/site/.ropeproject/config.py",
-		"/home/levitanus/gits/site/setup.cfg",
-		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/__init__.py",
-		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/schema.py",
-		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/sql/schema.py",
-		"/home/levitanus/gits/site/backend/models.pyi",
-		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py",
-		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/orm/__init__.py",
-		"/home/levitanus/gits/site/backend/__init__.py",
-		"/home/levitanus/gits/site/backend/app/__init__.py",
-		"/home/levitanus/gits/site/mypy.ini",
-		"/home/levitanus/gits/site/backend/app/models.py",
-		"/home/levitanus/gits/site/backend/app/routes.py",
-		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/ext/declarative/api.py",
-		"/home/levitanus/.local/lib/python3.7/site-packages/sqlalchemy/ext/declarative/__init__.py",
-		"/usr/lib/python3.7/weakref.py",
-		"/home/levitanus/gits/site/backend/def __init__.py",
-		"/home/levitanus/gits/site/backend/app/templates/base.html",
-		"/home/levitanus/gits/site/backend/app/templates/login.html",
-		"/home/levitanus/gits/site/backend/app/forms.py",
-		"/home/levitanus/gits/site/backend/app/templates/index.html"
+		"/home/levitanus/gits/sample_editor/sample_editor.sublime-project",
+		"/home/levitanus/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/media/levitanus/RaidNew/progr/reapy/reapy/tools/__init__.pyi",
+		"/media/levitanus/RaidNew/progr/reapy/reapy/reascript_api.py",
+		"/home/levitanus/.config/sublime-text-3/Packages/User/python3_my.sublime-build",
+		"/media/levitanus/RaidNew/progr/reapy/reapy/tools/inside_reaper_.pyi",
+		"/media/levitanus/RaidNew/progr/reapy/reapy/reascripts/enable_dist_api.py",
+		"/media/levitanus/RaidNew/progr/reapy/reapy/config.pyi",
+		"/media/levitanus/RaidNew/progr/reapy/reapy/config.py",
+		"/media/levitanus/RaidNew/progr/reapy/reapy/__init__.pyi",
+		"/media/levitanus/RaidNew/progr/reapy/reapy/tools/__init__.py",
+		"/D/gits/reapy/reapy/__init__.py",
+		"/D/gits/reapy/reapy/core/__init__.py",
+		"/D/gits/reapy/reapy/core/item/__init__.py",
+		"/D/gits/reapy/reapy/core/item/source.py",
+		"/D/gits/sample_editor/sample_editor/__init__.py",
+		"/D/gits/sample_editor/sample_editor/sub_package/sub_module.py",
+		"/D/gits/sample_editor/sample_editor/sub_package/__init__.py",
+		"/D/gits/sample_editor/sample_editor/audio.py",
+		"/D/gits/sample_editor/setup.py",
+		"/D/gits/sample_editor/sample_editor/pt.typed",
+		"/D/gits/reapy/setup.py",
+		"/D/gits/test.py",
+		"/D/gits/reapy/reapy/core/reaper/reaper.pyi",
+		"/C/Users/Levitanus/AppData/Roaming/Sublime Text 3/Packages/User/PyYapf.sublime-settings",
+		"/D/gits/reapy/reapy/core/window/tooltip.pyi",
+		"/D/gits/reapy/reapy/core/window/tooltip.py",
+		"/D/gits/reapy/reapy/__init__.pyi",
+		"/D/gits/reapy/reapy/py.typed",
+		"/D/gits/reapy/reapy/core/item/item.pyi",
+		"/D/gits/reapy/reapy/core/item/item.py",
+		"/D/gits/reapy/reapy/core/track/track.py",
+		"/D/gits/reapy/reapy/core/fx/fx_param.pyi",
+		"/D/gits/reapy/reapy/core/fx/fx.pyi",
+		"/D/gits/reapy/reapy/core/reapy_object.py",
+		"/D/gits/reapy/reapy/core/fx/__init__.pyi",
+		"/D/gits/reapy/reapy/core/item/take.py",
+		"/D/gits/reapy/reapy/core/item/take.pyi"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
-		"height": 136.0,
+		"height": 101.0,
 		"where_history":
 		[
 			"D:\\gits\\reapy\\reapy"
@@ -884,134 +830,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"500",
-			"80%",
-			"100vh",
-			"100",
-			"width: 100%;height: auto;",
-			"vk.png",
-			" s6 w3-mobile",
-			"курсивом",
-			"жирный",
-			"текст",
-			"address",
-			"T",
-			"result",
-			"price",
-			"validate_peice",
-			"randint",
-			"models",
-			"subj",
-			"subject",
-			"Subject",
-			"subject",
-			"Subject",
-			"subject",
-			"request.url_rule",
-			"url",
-			"endpoint",
-			"access_route",
-			"cb_res",
-			"p",
-			"price",
-			"subject",
-			"name",
-			"subject",
-			"subj_form",
-			"subj_frm",
-			"subject",
-			"h3",
-			"piano",
-			"h4",
-			"cls",
-			"dict",
-			"3",
-			"include",
-			"teacher",
-			"student",
-			"user",
-			"li",
-			"follower",
-			"followers",
-			"session",
-			"student",
-			"teachers",
-			"teacher",
-			"teachers",
-			"ch_pswd",
-			"change_password",
-			"password_new",
-			"password",
-			"pswd_chg",
-			"username",
-			"unique=True,",
-			"username",
-			"password_new",
-			"password",
-			"username",
-			"login",
-			"password_new",
-			"encode",
-			"login",
-			"loginpage.",
-			"password_repeat",
-			"log_resp",
-			"log",
-			"repeate",
-			"username",
-			"email",
-			"username",
-			"password",
-			"password_repeat",
-			"username",
-			"login",
-			"form",
-			"flaskr",
-			"test_user_gtoups",
-			"loginpage.login_form",
-			"basedir",
-			"app",
-			"loginpage.login_form",
-			"h1",
-			"form",
-			"p",
-			"email",
-			"intro",
-			"body",
-			"username",
-			"email",
-			"loginpage",
-			"login_form",
-			"novalidate",
-			"style=\"color: red;\">",
-			"html",
-			"divCheckPasswordMatch",
-			"id=",
-			"id",
-			"self",
-			"login_form",
-			" w3-padding",
-			"username",
 			"index",
-			"login",
-			"form",
-			"openCity",
-			"cityName",
-			"/",
-			"item",
-			"grayscale(100%)",
-			"login_header_small",
-			"div",
-			"content",
-			"ffffff",
-			"10",
-			"2",
-			"li",
-			"div",
-			"span",
-			"h1",
-			"span",
-			"header_regular"
+			"(1",
+			"s>",
+			"str",
+			"0б",
+			"б",
+			"clean_rms",
+			"bounds of",
+			"metadata_key",
+			"print",
+			"Shorts",
+			"SHORTS",
+			"int",
+			"frame_length",
+			"overload",
+			"def",
+			"Iterable",
+			"8000",
+			"rgn_w_mdata",
+			"regions",
+			"NamedSlider",
+			"rls_regs",
+			"direction_text",
+			"get_all_regions",
+			"ty.Optional[RegionContents]",
+			"int",
+			"sample_Start",
+			"deleted",
+			"rel_fade_out_time",
+			"rel_fade_out_sh",
+			"pos",
+			"post_marker",
+			"units_def",
+			"start_offset",
+			"frame_length",
+			"start_offset",
+			"st_ofst_spl",
+			"so",
+			"start_offset",
+			"ty.Dict[str, ty.Union[str, float, bool]]",
+			"self",
+			"Shorts_silence_treshold",
+			"COLOR",
+			"color",
+			"Color",
+			"tab",
+			"pre_onset",
+			"post_silence",
+			"pre_silence",
+			"articulation",
+			"art_name",
+			"rpr.Region, ty.Dict[str, object]",
+			"ty.Tuple[rpr.Region, ty.Dict[str, object]]",
+			"ValuesType",
+			"ValuesTy",
+			"None",
+			"post_max",
+			"post_avg",
+			"post_max",
+			"post_avg",
+			"onset_delta",
+			"time in ms",
+			"frames_to_time",
+			"int",
+			"15",
+			"8",
+			"sr / 10",
+			"onset_str",
+			"ipp",
+			"maker",
+			"mrk",
+			"print",
+			"point",
+			"samplopomogator",
+			"te",
+			"retval",
+			"dynmusical",
+			"dyn",
+			"sg.PopupOK()",
+			"cut_handler",
+			"silence_trashold",
+			"self.pr.time_selection",
+			"process",
+			"Undo_EndBlock2",
+			"end_u",
+			"persi",
+			"persis",
+			")\n",
+			"persis",
+			"'arts_file'",
+			"ah",
+			": ",
+			"assig",
+			"assi",
+			"cond",
+			"repr",
+			"simple",
+			"nsimple",
+			"tab_layout",
+			"process_wildcards",
+			"print",
+			"rmsmedian",
+			"str(wildcard)",
+			", ",
+			"self.",
+			"darts_instances",
+			"articulation",
+			"region_mask",
+			"update{",
+			"contens",
+			"ty.Dict[Wildcard, ty.Union[str, float]]",
+			"region_mask",
+			"dyn_mudical",
+			": str",
+			"Wildcard",
+			"Wildcard('",
+			"Wildcard(",
+			"Wildcard",
+			"self",
+			"median",
+			"rms",
+			"dynpeak",
+			"dynrms",
+			"dynpeak",
+			"root",
+			"Sustain",
+			"_def_tab_layout",
+			"arts_file_load"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1019,14 +965,7 @@
 		"regex": false,
 		"replace_history":
 		[
-			"codehilite",
-			"codehilight",
-			"StudentPersTime",
-			"te.Literal['$1']",
-			"te.Literal['(0)']",
-			"hsl(41, 40%, 55%)",
-			"1a2831",
-			"count_gets"
+			"ValuesFilledType"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1037,214 +976,38 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "placeholder/index.html",
+					"file": "polyphony.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6716,
+						"buffer_size": 245,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								191,
-								191
+								75,
+								75
 							]
 						],
 						"settings":
 						{
-							"SL.36.region_keys":
+							"auto_complete_triggers":
 							[
-							],
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "polyphony_site.sublime-project",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 924,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								232,
-								232
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "polyphony_app/templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3344,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1270,
-								1270
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 136.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "polyphony_app/users/models.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 4415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								331,
-								331
-							]
-						],
-						"settings":
-						{
-							"SL.48.region_keys":
-							[
-								"SL.pylint.Highlights.|3bb274e00e8edd7cf60b4b378ee8af68aba6e4faff9853909ce219cc0e489943|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Gutter.|region.purplish markup.warning.sublime_linter|circle",
-								"SL.mypy.Highlights.|c6fa1faa078ae76ffb563007eb4f54389bb4bfbf853c76ad5f23d716c039315a|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|e6cb0ff0eb186d81de96ab048621b41ca112cc17d715597d0b0cb98f95ad4a90|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|5a81dfcc0a15377a2e0c2bdbfb148b2d881c034773f6c8c4a824a61fcc726739|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|e5aa720db7775adcf4788703b127f6ddd889b5d62e9c27146afacb09e8d9d312|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|2c270ca25e526e5766d6796a207d7ff561de7e11614351472348432242681b12|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|bc30b46b00e5afd148a16c79be404f90d090c0fb1a289a72b8a4d977f730b33f|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|2f4bb78144774d30fd00b8efcd7bc48a2222a03685e986e65dba8f6bc0e2e152|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|85cea04adf42e4e218952375756cb3357fef137477559f309ad9aa368809bd3a|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|c567131c8c882615c17af6014a43554ba416e23f1371761426f28aa96167b1ad|region.purplish markup.error.sublime_linter|256",
-								"SL.mypy.Highlights.|6c0d180ca14cffa88e4289b9d4e398378dcc2c9ad8be95adebe1c1088cdd7fcf|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|68e7a9e39f6ad16c7b7e3faa41c8088cd94f2a5bf101107f150a55a81b93d988|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|0dbba3bd24737cafa553c81261d3a102ac2f3b5f39fe774e943b46366e59c9fb|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|7470457d983c42502bc6e5619306e05a6d2f36f430a1a830b01bd748d40cd228|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|19622472f865cdd65e7bd4dbd58429ef1b33e7d7e9f0460e8940801296db2634|region.purplish markup.warning.sublime_linter|32",
-								"SL.pylint.Highlights.|5da8cf9239aab0c553d543e9f6d07b71f5ea5f6ec9f6ac47e8ecad1722f578d2|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|15ee6c9376967385bd14954c95b682e47ade181b5c97313c18b568e72c6bb759|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|56f4c5a3b9e300b4e85118ef86560dbe909951b29fd432251a213d3df57a243f|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|6b0232b2b3850aeae2e46298114cd1402cc013b04afa33425568985d868a292b|region.purplish markup.error.sublime_linter|256",
-								"SL.mypy.Highlights.|3e3c842d28ac723183ba3eb7f22f285a8a82da18b3ea9ff01ba39b13c7d4b2f9|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|829f2465b7c1c3c221c64c874b9f6ec19e66e11801fb96633296b52a69245f22|region.purplish markup.error.sublime_linter|256",
-								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/triangle.png",
-								"SL.pylint.Highlights.|4d38ef64ff51fc7608a29d882f3dbc292d8446d3770ca07a41c64df1751758c4|region.purplish markup.error.sublime_linter|256",
-								"SL.mypy.Highlights.|f2b75988206db06d5394f22f782bb59bbbbd9e3879e7567e5f255f9d9da04bc5|region.orangish markup.error.sublime_linter|256",
-								"SL.mypy.Gutter.|region.orangish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/x.png",
-								"SL.pylint.Highlights.|6ce7b965da3feb6f490e27b9817f227a8ec7e07d16cce25e15c4291adb626ef9|region.purplish markup.error.sublime_linter|256",
-								"SL.flake8.Highlights.|41333c6714eb88ae34370516e025e0a573d6ca148da68f8034c0aae2905e285b|region.yellowish markup.warning.sublime_linter|32",
-								"SL.mypy.Highlights.|9b26196b4a1056d2ceb31abc8e27f1c0fe77964c648165413268f7f17de05398|region.orangish markup.error.sublime_linter|256",
-								"SL.mypy.Highlights.|06b6f87184a39382a865660ecd5eaf802677ebbfa62340f59562e51116cd1014|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|85e9bca1c363b24fc46b39fdd11d79631dcdab07db7abd6b25f14af4f9c7f148|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Gutter.|region.purplish markup.error.sublime_linter|circle",
-								"SL.mypy.Highlights.|23bf3d98edf596f4a400072b76ad257b25f08aae77f97e09a4eaa7a7978f6d36|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|88b6f96c41ed95ca26e31c1b3850b1d757482d870be184792e4f06e8a03c7a05|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|0d1846296df4621d401f2ee128260a240985905d4f2c2e50e03b4b7cdf161f0b|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|a5cda385245791935a7736f87bb3129733b201e81327aff10555b8ba6470155b|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|9a1a13e34e233cbf53792d23fa5ea56bf97a221a6fb0f2667cdc95fa1440686d|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|3e3cdb3c4b562b0c8be8ecc5e443579144919fc4862526ae758e0472a90ef7a9|region.purplish markup.error.sublime_linter|256",
-								"sublime_linter.protected_regions",
-								"SL.pylint.Highlights.|aff2e364072d68e7069dc70e3081532bc37eb1363c52aa240de76c157598c74e|region.purplish markup.error.sublime_linter|256",
-								"SL.mypy.Highlights.|851037b5da41e29e8457a12ead5963a2411f48fd88b055a997bd2e5cd3e5d6f7|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|08c15d33992df3ff6b3fd5dda7e4ea753232d68354abface5620bae7d2d179c7|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|d26bf214fa1f844f8aefb5c60b4b1644cbd9bb745ff41aee6062ec91ed318c31|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|db14a5547109ccfa3b02e3ca9a440f24dbbda9f79f9a6f4a76e81231584180c9|region.purplish markup.warning.sublime_linter|32"
-							],
-							"SL.69.region_keys":
-							[
-								"SL.pylint.Highlights.|3bb274e00e8edd7cf60b4b378ee8af68aba6e4faff9853909ce219cc0e489943|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Gutter.|region.purplish markup.warning.sublime_linter|circle",
-								"SL.mypy.Highlights.|c6fa1faa078ae76ffb563007eb4f54389bb4bfbf853c76ad5f23d716c039315a|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|e6cb0ff0eb186d81de96ab048621b41ca112cc17d715597d0b0cb98f95ad4a90|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|5a81dfcc0a15377a2e0c2bdbfb148b2d881c034773f6c8c4a824a61fcc726739|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|e5aa720db7775adcf4788703b127f6ddd889b5d62e9c27146afacb09e8d9d312|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|2c270ca25e526e5766d6796a207d7ff561de7e11614351472348432242681b12|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|bc30b46b00e5afd148a16c79be404f90d090c0fb1a289a72b8a4d977f730b33f|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|2f4bb78144774d30fd00b8efcd7bc48a2222a03685e986e65dba8f6bc0e2e152|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|85cea04adf42e4e218952375756cb3357fef137477559f309ad9aa368809bd3a|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|c567131c8c882615c17af6014a43554ba416e23f1371761426f28aa96167b1ad|region.purplish markup.error.sublime_linter|256",
-								"SL.mypy.Highlights.|6c0d180ca14cffa88e4289b9d4e398378dcc2c9ad8be95adebe1c1088cdd7fcf|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|68e7a9e39f6ad16c7b7e3faa41c8088cd94f2a5bf101107f150a55a81b93d988|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|0dbba3bd24737cafa553c81261d3a102ac2f3b5f39fe774e943b46366e59c9fb|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|7470457d983c42502bc6e5619306e05a6d2f36f430a1a830b01bd748d40cd228|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|19622472f865cdd65e7bd4dbd58429ef1b33e7d7e9f0460e8940801296db2634|region.purplish markup.warning.sublime_linter|32",
-								"SL.pylint.Highlights.|5da8cf9239aab0c553d543e9f6d07b71f5ea5f6ec9f6ac47e8ecad1722f578d2|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|15ee6c9376967385bd14954c95b682e47ade181b5c97313c18b568e72c6bb759|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|56f4c5a3b9e300b4e85118ef86560dbe909951b29fd432251a213d3df57a243f|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|6b0232b2b3850aeae2e46298114cd1402cc013b04afa33425568985d868a292b|region.purplish markup.error.sublime_linter|256",
-								"SL.mypy.Highlights.|3e3c842d28ac723183ba3eb7f22f285a8a82da18b3ea9ff01ba39b13c7d4b2f9|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|829f2465b7c1c3c221c64c874b9f6ec19e66e11801fb96633296b52a69245f22|region.purplish markup.error.sublime_linter|256",
-								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/triangle.png",
-								"SL.pylint.Highlights.|4d38ef64ff51fc7608a29d882f3dbc292d8446d3770ca07a41c64df1751758c4|region.purplish markup.error.sublime_linter|256",
-								"SL.mypy.Highlights.|f2b75988206db06d5394f22f782bb59bbbbd9e3879e7567e5f255f9d9da04bc5|region.orangish markup.error.sublime_linter|256",
-								"SL.mypy.Gutter.|region.orangish markup.error.sublime_linter|Packages/SublimeLinter/gutter-themes/Default/x.png",
-								"SL.pylint.Highlights.|6ce7b965da3feb6f490e27b9817f227a8ec7e07d16cce25e15c4291adb626ef9|region.purplish markup.error.sublime_linter|256",
-								"SL.flake8.Highlights.|41333c6714eb88ae34370516e025e0a573d6ca148da68f8034c0aae2905e285b|region.yellowish markup.warning.sublime_linter|32",
-								"SL.mypy.Highlights.|9b26196b4a1056d2ceb31abc8e27f1c0fe77964c648165413268f7f17de05398|region.orangish markup.error.sublime_linter|256",
-								"SL.mypy.Highlights.|06b6f87184a39382a865660ecd5eaf802677ebbfa62340f59562e51116cd1014|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|85e9bca1c363b24fc46b39fdd11d79631dcdab07db7abd6b25f14af4f9c7f148|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Gutter.|region.purplish markup.error.sublime_linter|circle",
-								"SL.mypy.Highlights.|23bf3d98edf596f4a400072b76ad257b25f08aae77f97e09a4eaa7a7978f6d36|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|88b6f96c41ed95ca26e31c1b3850b1d757482d870be184792e4f06e8a03c7a05|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|0d1846296df4621d401f2ee128260a240985905d4f2c2e50e03b4b7cdf161f0b|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|a5cda385245791935a7736f87bb3129733b201e81327aff10555b8ba6470155b|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|9a1a13e34e233cbf53792d23fa5ea56bf97a221a6fb0f2667cdc95fa1440686d|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|3e3cdb3c4b562b0c8be8ecc5e443579144919fc4862526ae758e0472a90ef7a9|region.purplish markup.error.sublime_linter|256",
-								"sublime_linter.protected_regions",
-								"SL.pylint.Highlights.|aff2e364072d68e7069dc70e3081532bc37eb1363c52aa240de76c157598c74e|region.purplish markup.error.sublime_linter|256",
-								"SL.mypy.Highlights.|851037b5da41e29e8457a12ead5963a2411f48fd88b055a997bd2e5cd3e5d6f7|region.orangish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|08c15d33992df3ff6b3fd5dda7e4ea753232d68354abface5620bae7d2d179c7|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|d26bf214fa1f844f8aefb5c60b4b1644cbd9bb745ff41aee6062ec91ed318c31|region.purplish markup.error.sublime_linter|256",
-								"SL.pylint.Highlights.|db14a5547109ccfa3b02e3ca9a440f24dbbda9f79f9a6f4a76e81231584180c9|region.purplish markup.warning.sublime_linter|32"
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric, meta.interpolated.format.fstring"
+								}
 							],
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
@@ -1252,24 +1015,132 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "polyphony_app/static/css/style.css",
+					"buffer": 1,
+					"file": "polifonia_app/public/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3412,
+						"buffer_size": 1445,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2764,
-								2764
+								460,
+								460
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric, meta.interpolated.format.fstring"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 178.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "polifonia_app/public/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3416,
+								3416
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric, meta.interpolated.format.fstring"
+								}
+							],
+							"complete_all_parameters": false,
+							"complete_parameters": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1815.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "setup.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "polifonia_app/static/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1277,10 +1148,128 @@
 							"syntax": "Packages/CSS3/CSS3.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1624.0,
+						"translation.y": 1824.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "polifonia_app/app.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								893,
+								893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 64.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "polifonia_app/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "polifonia_app/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "polifonia_app/templates/about_us.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1288,11 +1277,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"input":
 	{
-		"height": 44.0
+		"height": 51.0
 	},
 	"layout":
 	{
@@ -1326,7 +1315,7 @@
 	"menu_visible": true,
 	"output.SublimeLinter":
 	{
-		"height": 126.0
+		"height": 129.0
 	},
 	"output.SublimeLinter Messages":
 	{
@@ -1334,17 +1323,21 @@
 	},
 	"output.exec":
 	{
-		"height": 232.0
+		"height": 242.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
 	"project": "polyphony_site.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1358,16 +1351,16 @@
 	},
 	"select_project":
 	{
-		"height": 516.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"",
-				"~/gits/kivy-stubs/kivy_stubs.sublime-project"
+				"D:\\gits\\reapy_prjct.sublime-project"
 			]
 		],
-		"width": 392.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -1378,30 +1371,15 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
-		"last_automatic_layout":
-		[
-			[
-				0,
-				0,
-				1,
-				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
-			]
-		]
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
+	"side_bar_width": 281.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

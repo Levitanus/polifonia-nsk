@@ -9,20 +9,35 @@ from werkzeug.urls import url_parse
 from .models import products, PaymentForm
 
 
+class MenuItem:
+
+    def __init__(self, text: str, route: str) -> None:
+        self.text = text
+        self.route = bp.url_defaults(route)
+
+
+menu_items = [
+    MenuItem('главная', '/'),
+    MenuItem('контактная информация', '/about_us'),
+]
+
+
 @bp.route('/')
 @bp.route('/index')
 def index() -> str:
-    return render_template('index.html', products=products)
+    return render_template(
+        'index.html', products=products, menu_items=menu_items
+    )
 
 
 @bp.route('/about_us')
 def about_us() -> str:
-    return render_template('about_us.html')
+    return render_template('about_us.html', menu_items=menu_items)
 
 
 @bp.route('/pay_rules')
 def pay_rules() -> str:
-    return render_template('pay_rules.html')
+    return render_template('pay_rules.html', menu_items=menu_items)
 
 
 @bp.route(
@@ -54,5 +69,6 @@ def pay(product_id: str) -> str:
         'test_pay_widget.html',
         product=product,
         form=form,
-        comission=comission
+        comission=comission,
+        menu_items=menu_items
     )
