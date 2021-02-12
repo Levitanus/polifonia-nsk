@@ -90,6 +90,15 @@ ab4 = Product(
     lifetime="абонемент действителен 1 месяц, "
     "ещё месяц вы можете прогулять по уважительным причинам",
 )
+ab4_student = Product(
+    'Абонемент',
+    Path('abonement4.png'),
+    'на 4 занятия (студенческий/групповой)',
+    2000,
+    quantaty=4,
+    lifetime="абонемент действителен 1 месяц, "
+    "ещё месяц вы можете прогулять по уважительным причинам",
+)
 ab8 = Product(
     'Абонемент',
     Path('abonement8.png'),
@@ -110,6 +119,20 @@ ab24 = Product(
     comment='Возможна рассрочка по абонементу в'
     ' течение 2х месяцев: по 6 600₽',
     can_be_halfed=True,
+)
+lesson = Product(
+    'Урок',
+    Path('lesson.png'),
+    'очный',
+    1000,
+    can_be_halfed=True,
+    comment="пробное занятие — половина стоимости"
+)
+lesson_online = Product(
+    'Урок',
+    Path('lesson_online.png'),
+    'онлайн',
+    700,
 )
 song = Product(
     'Сведение',
@@ -141,8 +164,11 @@ rent = Product(
 )
 products = {
     ab4.id_: ab4,
+    ab4_student.id_: ab4_student,
     ab8.id_: ab8,
     ab24.id_: ab24,
+    lesson.id_: lesson,
+    lesson_online.id_: lesson_online,
     song.id_: song,
     arrangement.id_: arrangement,
     rent.id_: rent,
