@@ -16,7 +16,7 @@ from wtforms import (
 
 class Price:
 
-    def __init__(self, price: int, rate: float = 3.3) -> None:
+    def __init__(self, price: int, rate: float = 0) -> None:
         self._value = price
         self._rate = rate
 
@@ -85,7 +85,7 @@ ab4 = Product(
     'Абонемент',
     Path('abonement4.png'),
     'на 4 занятия',
-    3000,
+    4000,
     quantaty=4,
     lifetime="абонемент действителен 1 месяц, "
     "ещё месяц вы можете прогулять по уважительным причинам",
@@ -93,8 +93,8 @@ ab4 = Product(
 ab4_student = Product(
     'Абонемент',
     Path('abonement4.png'),
-    'на 4 занятия (студенческий/групповой)',
-    2000,
+    'на 4 занятия (студенческий, групповой)',
+    2400,
     quantaty=4,
     lifetime="абонемент действителен 1 месяц, "
     "ещё месяц вы можете прогулять по уважительным причинам",
@@ -103,7 +103,7 @@ ab8 = Product(
     'Абонемент',
     Path('abonement8.png'),
     'на 8 занятий',
-    5200,
+    7200,
     quantaty=8,
     lifetime="абонемент действителен 1 месяц, "
     "ещё месяц вы можете прогулять по уважительным причинам",
@@ -111,20 +111,17 @@ ab8 = Product(
 ab24 = Product(
     'Абонемент',
     Path('abonement24.png'),
-    'на 24 занятия',
-    13200,
-    quantaty=24,
-    lifetime="абонемент действителен 3 месяца, "
+    'на 16 занятий',
+    12800,
+    quantaty=16,
+    lifetime="абонемент действителен 2 месяца, "
     "ещё месяц вы можете прогулять по уважительным причинам",
-    comment='Возможна рассрочка по абонементу в'
-    ' течение 2х месяцев: по 6 600₽',
-    can_be_halfed=True,
 )
 lesson = Product(
     'Урок',
     Path('lesson.png'),
     'очный',
-    1000,
+    1200,
     can_be_halfed=True,
     comment="пробное занятие — половина стоимости"
 )
@@ -132,7 +129,7 @@ lesson_online = Product(
     'Урок',
     Path('lesson_online.png'),
     'онлайн',
-    700,
+    1000,
 )
 song = Product(
     'Сведение',
@@ -159,7 +156,7 @@ rent = Product(
     'Аренда',
     Path('rent.png'),
     'для уроков и репетиций',
-    100,
+    200,
     comment='цена указана за час',
 )
 products = {
