@@ -8,6 +8,9 @@ from werkzeug.urls import url_parse
 
 from .models import products, PaymentForm
 
+import telebot
+from . import telegram_bot_parcer as data_parcer
+
 
 class MenuItem:
 
@@ -72,3 +75,22 @@ def pay(product_id: str) -> str:
         comission=comission,
         menu_items=menu_items
     )
+
+
+@bp.route("/QD9OfEzZnjv3gYYDtg2k9p1xph0LMORMS", methods=['GET', 'POST'])
+def webhook():
+    bot = telebot.TeleBot("1925166479:AAE0uwMEPNO3H9mJ2LYq39HaTxYFm7_0ULc")
+
+    # if request.method == 'POST':
+    data = request.get_json()
+    bot.send_message(-1001586470274, str(data))
+    try:
+        if info := data_parcer.allert_if_new_lesson(data):
+            bot.send_message(-1001586470274, info)
+    except Exception as e:
+        bot.send_message(-1001586470274, e)
+    else:
+        bot.send_message(-1001586470274, f"unsuccessful: {str(info)}")
+    # if request.method == 'GET':
+    #     bot.send_message(-1001586470274, 'showed')
+    return 'Hello from polifonia-nsk.ru!!'
