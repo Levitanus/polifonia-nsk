@@ -11,6 +11,9 @@ from .models import products, PaymentForm
 import telebot
 from . import telegram_bot_parcer as data_parcer
 
+channel = -1001586470274
+channel = "@polifoniaBotTest"
+
 
 class MenuItem:
 
@@ -83,14 +86,14 @@ def webhook():
 
     # if request.method == 'POST':
     data = request.get_json()
-    bot.send_message(-1001586470274, str(data))
+    bot.send_message(channel, str(data))
     try:
         if info := data_parcer.allert_if_new_lesson(data):
-            bot.send_message(-1001586470274, info)
+            bot.send_message(channel, info)
     except Exception as e:
-        bot.send_message(-1001586470274, e)
+        bot.send_message(channel, e)
     else:
-        bot.send_message(-1001586470274, f"unsuccessful: {str(info)}")
+        bot.send_message(channel, f"unsuccessful: {str(info)}")
     # if request.method == 'GET':
-    #     bot.send_message(-1001586470274, 'showed')
+    #     bot.send_message(channel, 'showed')
     return 'Hello from polifonia-nsk.ru!!'
