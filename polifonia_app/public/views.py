@@ -86,7 +86,7 @@ def process_webhook(data):
     # bot.send_message(channel, str(data))
     try:
         if info := data_parcer.allert_if_new_lesson(data):
-            bot.send_message(channel, info)
+            bot.send_message(channel, info, parse_mode="HTML")
         else:
             bot.send_message(channel, f"unsuccessful: {str(info)}")
     except Exception as e:

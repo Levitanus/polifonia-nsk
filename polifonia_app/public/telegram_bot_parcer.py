@@ -205,7 +205,7 @@ def get_lesson_info(
         # print(resp)
         info = resp.json()
         info['room'] = get_room(token, info['roomId'])
-        info['filial'] = get_filial_name(token, info['filialId'])
+        # info['filial'] = get_filial_name(token, info['filialId'])
     # print(info)
     important = {
         "дата": info['date'],
@@ -223,11 +223,11 @@ def get_lesson_info(
 
 def format_lesson(info: JsonDict, status: str = "Новое занятие") -> str:
     return f"""\
-    {status} на [{info["филиал"]}]!
-    ⋅ Предмет: "{info["предмет"]}" в [{info["аудитория"]}]
+    {status}!
+    ⋅ Предмет: "{info["предмет"]}" в <b>{info["аудитория"]}</b>
     ⋅ {info["дата"]} с {info["начало"]} до {info["конец"]}
-    ⋅ преподаватели: {info["преподаватели"]}
-    ⋅ ученики: {info["ученики"]}
+    ⋅ преподаватели: <i>{info["преподаватели"]}</i>
+    ⋅ ученики: <i>{info["ученики"]}</i>
     """
 
 
