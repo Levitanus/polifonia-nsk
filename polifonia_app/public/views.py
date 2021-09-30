@@ -10,6 +10,7 @@ from .models import products, PaymentForm
 
 import telebot
 from . import telegram_bot_parcer as data_parcer
+from threading import Thread
 
 channel = -1001586470274
 channel = "@polifoniaBotTest"
@@ -80,20 +81,26 @@ def pay(product_id: str) -> str:
     )
 
 
-@bp.route("/QD9OfEzZnjv3gYYDtg2k9p1xph0LMORMS", methods=['GET', 'POST'])
-def webhook():
+def process_webhook(data):
     bot = telebot.TeleBot("1925166479:AAE0uwMEPNO3H9mJ2LYq39HaTxYFm7_0ULc")
-
-    # if request.method == 'POST':
-    data = request.get_json()
     bot.send_message(channel, str(data))
     try:
         if info := data_parcer.allert_if_new_lesson(data):
             bot.send_message(channel, info)
+        else:
+            bot.send_message(channel, f"unsuccessful: {str(info)}")
     except Exception as e:
         bot.send_message(channel, e)
-    else:
-        bot.send_message(channel, f"unsuccessful: {str(info)}")
+
+
+@bp.route("/QD9OfEzZnjv3gYYDtg2k9p1xph0LMORMS", methods=['GET', 'POST'])
+def webhook():
+
+    # if request.method == 'POST':
+    data = request.get_json()
+    t = Thread(target=process_webhook, args=(data, ))
+    t.start()
+
     # if request.method == 'GET':
     #     bot.send_message(channel, 'showed')
     return 'Hello from polifonia-nsk.ru!!'

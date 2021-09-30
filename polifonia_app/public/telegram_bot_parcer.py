@@ -85,15 +85,15 @@ def get_token() -> str:
         f'{server}/v1/company/auth/getToken',
         headers={"Content-type": "application/json"},
         json={"apiKey": "b0MLIiMLwsA41aSnquHNUnXoCujKUjpH16B08UvTqOG8o7KQfU"},
-        verify=False,
+        # verify=False,
         # },
         # params={"grant_type": "client_credentials"}
     )
-    print(resp)
+    # print(resp)
     # print(resp.text)
     if resp.status_code == 200:
         data = resp.json()
-        # print(data)
+        print(data)
         return data['accessToken']
 
 
@@ -101,16 +101,16 @@ def revoke_token(token: str) -> None:
     resp = requests.post(
         url=f'{server}/v1/company/auth/revokeToken',
         headers={"x-access-token": token},
-        verify=False,
+        # verify=False,
     )
-    print(resp)
+    # print(resp)
 
 
 def get_filial_name(token: str, filialId: int) -> str:
     resp = requests.get(
         f"{server}/v1/company/filials",
         headers={"x-access-token": token},
-        verify=False,
+        # verify=False,
     )
     if resp.status_code == 200:
         r = list(filter(lambda x: x["id"] == filialId, resp.json()))[0]["name"]
@@ -123,7 +123,7 @@ def get_room(token: str, roomId: int) -> str:
     resp = requests.get(
         f"{server}/v1/company/rooms",
         headers={"x-access-token": token},
-        verify=False,
+        # verify=False,
     )
     if resp.status_code == 200:
         r = list(filter(lambda x: x["id"] == roomId, resp.json()))[0]["name"]
@@ -136,7 +136,7 @@ def get_class(token: str, classId: int) -> str:
     resp = requests.get(
         f"{server}/v1/company/classes",
         headers={"x-access-token": token},
-        verify=False,
+        # verify=False,
     )
     if resp.status_code == 200:
         r = list(filter(lambda x: x["id"] == classId, resp.json()))[0]["name"]
@@ -149,7 +149,7 @@ def get_teachers(token: str, ids: ty.List[int]) -> ty.List[str]:
     resp = requests.get(
         f"{server}/v1/company/managers",
         headers={"x-access-token": token},
-        verify=False,
+        # verify=False,
     )
     if resp.status_code == 200:
         teachers = []
@@ -158,7 +158,7 @@ def get_teachers(token: str, ids: ty.List[int]) -> ty.List[str]:
             if list(filter(lambda x: tid == x, ids)):
                 teachers.append(teacher['name'])
         r = teachers
-        print(r)
+        # print(r)
         return r
     # else:
     #     raise requests.ConnectionError(resp, resp.text)
@@ -175,7 +175,7 @@ def get_students(
         resp = requests.get(
             f"{server}/v1/company/users/{record['userId']}",
             headers={"x-access-token": token},
-            verify=False,
+            # verify=False,
         )
         if resp.status_code == 200:
             students.append(resp.json()["name"])
@@ -199,14 +199,14 @@ def get_lesson_info(
         resp = requests.get(
             f"{server}/v1/company/lessons/{lesson_id}",
             headers={"x-access-token": token},
-            verify=False,
+            # verify=False,
             params={"includeRecords": "true"}
         )
-        print(resp)
+        # print(resp)
         info = resp.json()
         info['room'] = get_room(token, info['roomId'])
         info['filial'] = get_filial_name(token, info['filialId'])
-    print(info)
+    # print(info)
     important = {
         "дата": info['date'],
         "начало": info['beginTime'],
@@ -217,7 +217,7 @@ def get_lesson_info(
         "преподаватели": get_teachers(token, info['teacherIds']),
         "ученики": get_students(token, info['records']),
     }
-    print(important)
+    # print(important)
     return important
 
 
@@ -243,7 +243,7 @@ def allert_if_new_lesson(data: ty.Dict) -> ty.Optional[str]:
             info = get_lesson_info(token, data['event'], data["object"])
         except KeyError as e:
             revoke_token(token)
-            print("Cannot parse lesson: {}".format(e))
+            # print("Cannot parse lesson: {}".format(e))
             return None
         revoke_token(token)
         return format_lesson(info, status[data['event']])
