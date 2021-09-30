@@ -13,7 +13,7 @@ from . import telegram_bot_parcer as data_parcer
 from threading import Thread
 
 channel = -1001586470274
-# channel = "@polifoniaBotTest"
+channel = "@polifoniaBotTest"
 
 
 class MenuItem:
